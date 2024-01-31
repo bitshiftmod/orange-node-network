@@ -1,0 +1,25 @@
+{
+  "name": "gateway",
+  "version": "0.1.0",
+  "description": "Gateway proxy server for orange-node-network",
+  "main": "index.js",
+  "repository": "https://github.com/bitshiftmod/orange-node-network.git",
+  "author": "bitshiftmod",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "lint": "eslint .",
+    "build": "echo 'Build script not defined'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.3"
+  }
+}
