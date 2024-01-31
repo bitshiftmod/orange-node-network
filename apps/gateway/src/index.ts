@@ -1,8 +1,8 @@
-const express = require("express");
-const { createProxyMiddleware } = require("http-proxy-middleware");
+import express from "express";
+import { createProxyMiddleware } from "http-proxy-middleware";
+import servers from "./nodes.json";
 
 const app = express();
-const servers = require("./nodes.json");
 
 const selectNode = () => {
   const index = Math.floor(Math.random() * servers.length);
