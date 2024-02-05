@@ -1,4 +1,4 @@
 [
-  { "name": "test1", "url": "http://localhost:4160" },
-  { "name": "test2", "url": "http://localhost:4160" }
+  { "name": "test1", "url": "http://localhost:3001" },
+  { "name": "test2", "url": "http://localhost:3001" }
 ]

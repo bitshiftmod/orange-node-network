@@ -15,8 +15,10 @@ app.use("/", (req, res, next) => {
   createProxyMiddleware({
     target: selectNode(),
     changeOrigin: true,
-    // onProxyReq: (proxyReq, req, res) => {
-    // },
+    onProxyReq: (proxyReq, req, res) => {
+      // TODO: replace with scheme to verify requests come for orange gateways
+      proxyReq.setHeader("x-orange-server","testing");
+    },
   })(req, res, next);
 });
 
