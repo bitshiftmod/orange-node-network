@@ -4,9 +4,12 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 import {Test} from 'orange-react';
+import {orangeTest} from 'orange-sdk';
 
 function App() {
   const [count, setCount] = useState(0)
+
+  orangeTest();
 
   return (
     <>
