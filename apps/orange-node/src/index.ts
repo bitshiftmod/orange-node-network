@@ -18,7 +18,7 @@ app.use((req, res, next) => {
     res.status(403).send("Forbidden");
   } else {
     // remove API key from request
-    delete req.headers["x-api-key"];
+    delete req.headers["X-Algo-API-Token"];
     // console.log(`Incoming request for ${req.url}`);
     // console.log(`headers: ${JSON.stringify(req.headers)}`);
     next(); // Proceed to the next middleware/route handler
@@ -42,7 +42,7 @@ app.use(
         // TODO: send txid to tracker for point earning
       }
 
-      proxyReq.setHeader("x-api-key", ALGOD_TOKEN!);
+      proxyReq.setHeader("X-Algo-API-Token", ALGOD_TOKEN!);
     },
   })
 );
