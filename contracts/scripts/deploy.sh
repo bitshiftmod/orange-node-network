@@ -44,43 +44,10 @@ case $network in
     ;;
 esac
 
-# Prompt for arguments if not provided
-if [ -z "$2" ]
-then
-  echo "Please provide number of global state byte variables (numGlobalByteSlices):"
-  read numGlobalByteSlices
-else
-  numGlobalByteSlices=$2
-fi
-
-if [ -z "$3" ]
-then
-  echo "Please provide number of global state int variables (numGlobalInts):"
-  read numGlobalInts
-else
-  numGlobalInts=$3
-fi
-
-if [ -z "$4" ]
-then
-  echo "Please provide number of local state byte variables (numLocalByteSlices):"
-  read numLocalByteSlices
-else
-  numLocalByteSlices=$4
-fi
-
-if [ -z "$5" ]
-then
-  echo "Please provide number of local state int variables (numLocalInts):"
-  read numLocalInts
-else
-  numLocalInts=$5
-fi
-
 NODE_OPTIONS="--unhandled-rejections=strict" \
 ALGOD_SERVER=$server \
 ALGOD_TOKEN=$token \
 ALGOD_PORT=$port \
 DEPLOYER_MNEMONIC="$DEPLOYER_MNEMONIC" \
 NETWORK=$network \
-node scripts/deploy.mjs $numGlobalByteSlices $numGlobalInts $numLocalByteSlices $numLocalInts
+ts-node scripts/deploy.ts
