@@ -10,6 +10,7 @@ const YEAR = 2; // 365 Days
 const DEFAULT_30DAY_PRICE = 1_00000000;
 const DEFAULT_YEAR_PRICE = 12_00000000;
 
+// time in seconds, to work with Algorand's latestTimestamp value in seconds
 const DAY_DUR = 60 * 60 * 24;
 const DAYS_30_DUR = DAY_DUR * 30;
 const YEAR_DUR = DAY_DUR * 365;
@@ -129,10 +130,10 @@ class OrangeSubscribers extends Contract {
     const price = subscriptionType === DAYS_30 ? this.subscriptionPrice30day.value : this.subscriptionPriceYear.value;
 
     verifyAssetTransferTxn(oraPayment, {
-      assetSender: this.txn.sender,
+      sender: this.txn.sender,
       assetReceiver: this.app.address,
       xferAsset: this.oraAsaId.value,
-      assetAmount: oraPayment.assetAmount === price,
+      assetAmount: price,
     });
 
     const existingSubscription = this.subscriptions(this.txn.sender).exists
@@ -147,7 +148,7 @@ class OrangeSubscribers extends Contract {
     this.subscriptions(this.txn.sender).value = newEnd;
   }
 
-  // getLatestTimestamp(): uint64 {
-  //   return globals.latestTimestamp;
-  // }
+  getLatestTimestamp(): uint64 {
+    return globals.latestTimestamp;
+  }
 }
