@@ -163,5 +163,127 @@ describe('TestDappContracts', () => {
 
       expect(diff).toBeLessThan(60);
     });
+
+    test('should pass for correct payment for 1 year', async () => {
+      const { algod } = fixture.context;
+
+      let globalState = await appClient.getGlobalState();
+      const appRef = await appClient.appClient.getAppReference();
+
+      const oraTx = algosdk.makeAssetTransferTxnWithSuggestedParamsFromObject({
+        from: mainAccount.addr,
+        to: appRef.appAddress,
+        amount: globalState.spy!.asBigInt(),
+        assetIndex: oraAsaId as number,
+        suggestedParams: await algod.getTransactionParams().do(),
+      });
+
+      const latestTimestamp = await appClient.getLatestTimestamp({});
+
+      const res = await appClient.subscribe(
+        { oraPayment: oraTx, subscriptionType: 2 },
+        {
+          assets: [oraAsaId as number],
+          sender: mainAccount,
+          sendParams: {
+            fee: algokit.microAlgos(1000),
+          },
+        }
+      );
+      expect(res.transactions.length).toBe(2);
+
+      globalState = await appClient.getGlobalState();
+      // console.log(await appClient.appClient.getBoxNames());
+
+      const account = algosdk.decodeAddress(mainAccount.addr);
+      const boxValue = await appClient.appClient.getBoxValue(account.publicKey);
+
+      const dateValue = algosdk.decodeUint64(boxValue, 'safe');
+      const oneDay = 24 * 60 * 60;
+
+      // checking 1 year plus the 30 day subscription from earlier
+      const expected = Number(latestTimestamp.return as bigint) + (365 + 30) * oneDay;
+      const diff = Math.abs(expected - dateValue);
+
+      expect(diff).toBeLessThan(120);
+    });
+  });
+
+  describe('Gift Subscription NFTs', () => {
+    test('should allow minting and redeeming 30 day', async () => {
+      const { algod, kmd } = fixture.context;
+
+      const globalState = await appClient.getGlobalState();
+      const appRef = await appClient.appClient.getAppReference();
+
+      const newAccount = algosdk.generateAccount();
+
+      await algokit.ensureFunded(
+        {
+          accountToFund: newAccount,
+          minSpendingBalance: algokit.algos(100),
+        },
+        algod,
+        kmd
+      );
+      await algokit.assetOptIn({ assetId: oraAsaId as number, account: newAccount }, algod);
+      await algokit.transferAsset(
+        { assetId: oraAsaId as number, amount: 20_00000000, from: mainAccount, to: newAccount },
+        algod
+      );
+      await algokit.assetOptIn({ assetId: globalState.gs30d!.asNumber(), account: newAccount }, algod);
+
+      const oraTx = algosdk.makeAssetTransferTxnWithSuggestedParamsFromObject({
+        from: newAccount.addr,
+        to: appRef.appAddress,
+        amount: globalState.sp30d!.asNumber(),
+        assetIndex: oraAsaId as number,
+        suggestedParams: await algod.getTransactionParams().do(),
+      });
+
+      const results = await appClient.mintGiftNft(
+        { oraPayment: oraTx, subscriptionType: 1 },
+        {
+          assets: [oraAsaId as number],
+          sender: newAccount,
+          sendParams: {
+            fee: algokit.microAlgos(2000),
+          },
+        }
+      );
+      expect(results.transactions.length).toBe(2);
+
+      const giftTx = algosdk.makeAssetTransferTxnWithSuggestedParamsFromObject({
+        from: newAccount.addr,
+        to: appRef.appAddress,
+        amount: 1,
+        assetIndex: globalState.gs30d!.asNumber(),
+        suggestedParams: await algod.getTransactionParams().do(),
+      });
+
+      const redeemResults = await appClient.redeemGiftNft(
+        { giftPayment: giftTx },
+        {
+          assets: [oraAsaId as number, globalState.gs30d!.asNumber()],
+          sender: newAccount,
+          sendParams: {
+            fee: algokit.microAlgos(2000),
+          },
+        }
+      );
+      expect(redeemResults.transactions.length).toBe(2);
+
+      const latestTimestamp = await appClient.getLatestTimestamp({});
+      const account = algosdk.decodeAddress(newAccount.addr);
+      const boxValue = await appClient.appClient.getBoxValue(account.publicKey);
+
+      const dateValue = algosdk.decodeUint64(boxValue, 'safe');
+      const oneDay = 24 * 60 * 60;
+
+      const expected = Number(latestTimestamp.return as bigint) + 30 * oneDay;
+      const diff = Math.abs(expected - dateValue);
+
+      expect(diff).toBeLessThan(60);
+    });
   });
 });

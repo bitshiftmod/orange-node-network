@@ -110,18 +110,51 @@ class OrangeSubscribers extends Contract {
     const price = subscriptionType === DAYS_30 ? this.subscriptionPrice30day.value : this.subscriptionPriceYear.value;
 
     verifyAssetTransferTxn(oraPayment, {
-      assetSender: this.txn.sender,
+      sender: this.txn.sender,
       assetReceiver: this.app.address,
       xferAsset: this.oraAsaId.value,
-      assetAmount: oraPayment.assetAmount === price,
+      assetAmount: price,
     });
 
+    const subscriptionAssetId =
+      subscriptionType === DAYS_30 ? this.giftSubscription30day.value : this.giftSubscriptionYear.value;
+
+    assert(
+      this.txn.sender.isOptedInToAsset(subscriptionAssetId),
+      'User not opted into asset id: ' + subscriptionAssetId
+    );
+
     sendAssetTransfer({
-      assetSender: this.app.address,
+      sender: this.app.address,
       assetReceiver: this.txn.sender,
       assetAmount: 1,
-      xferAsset: subscriptionType === DAYS_30 ? this.giftSubscription30day.value : this.giftSubscriptionYear.value,
+      xferAsset: subscriptionAssetId,
     });
+  }
+
+  redeemGiftNFT(giftPayment: AssetTransferTxn): void {
+    assert(
+      giftPayment.xferAsset === this.giftSubscription30day.value ||
+        giftPayment.xferAsset === this.giftSubscriptionYear.value,
+      'Invalid gift subscription NFT'
+    );
+
+    verifyAssetTransferTxn(giftPayment, {
+      sender: this.txn.sender,
+      assetReceiver: this.app.address,
+      assetAmount: 1,
+    });
+
+    const existingSubscription = this.subscriptions(this.txn.sender).exists
+      ? this.subscriptions(this.txn.sender).value
+      : 0;
+
+    const currentEnd = existingSubscription < globals.latestTimestamp ? globals.latestTimestamp : existingSubscription;
+
+    const dur = giftPayment.xferAsset === this.giftSubscription30day.value ? DAYS_30_DUR : YEAR_DUR;
+    const newEnd = currentEnd + dur;
+
+    this.subscriptions(this.txn.sender).value = newEnd;
   }
 
   subscribe(oraPayment: AssetTransferTxn, subscriptionType: uint8): void {
