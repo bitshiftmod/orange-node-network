@@ -285,5 +285,108 @@ describe('TestDappContracts', () => {
 
       expect(diff).toBeLessThan(60);
     });
+
+    test('should allow minting, gifting, and redeeming 1 year', async () => {
+      const { algod, kmd } = fixture.context;
+
+      const globalState = await appClient.getGlobalState();
+      const appRef = await appClient.appClient.getAppReference();
+
+      const newAccount = algosdk.generateAccount();
+
+      await algokit.ensureFunded(
+        {
+          accountToFund: newAccount,
+          minSpendingBalance: algokit.algos(100),
+        },
+        algod,
+        kmd
+      );
+      await algokit.assetOptIn({ assetId: globalState.gsy!.asNumber(), account: newAccount }, algod);
+      await algokit.assetOptIn({ assetId: globalState.gsy!.asNumber(), account: mainAccount }, algod);
+
+      const oraTx = algosdk.makeAssetTransferTxnWithSuggestedParamsFromObject({
+        from: mainAccount.addr,
+        to: appRef.appAddress,
+        amount: globalState.spy!.asNumber(),
+        assetIndex: oraAsaId as number,
+        suggestedParams: await algod.getTransactionParams().do(),
+      });
+
+      const results = await appClient.mintGiftNft(
+        { oraPayment: oraTx, subscriptionType: 2 },
+        {
+          assets: [oraAsaId as number],
+          sender: mainAccount,
+          sendParams: {
+            fee: algokit.microAlgos(2000),
+          },
+        }
+      );
+      expect(results.transactions.length).toBe(2);
+
+      await algokit.transferAsset(
+        {
+          from: mainAccount,
+          to: newAccount,
+          amount: 1,
+          assetId: globalState.gsy!.asNumber(),
+        },
+        algod
+      );
+
+      const giftTx = algosdk.makeAssetTransferTxnWithSuggestedParamsFromObject({
+        from: newAccount.addr,
+        to: appRef.appAddress,
+        amount: 1,
+        assetIndex: globalState.gsy!.asNumber(),
+        suggestedParams: await algod.getTransactionParams().do(),
+      });
+
+      const redeemResults = await appClient.redeemGiftNft(
+        { giftPayment: giftTx },
+        {
+          assets: [oraAsaId as number, globalState.gs30d!.asNumber()],
+          sender: newAccount,
+          sendParams: {
+            fee: algokit.microAlgos(2000),
+          },
+        }
+      );
+      expect(redeemResults.transactions.length).toBe(2);
+
+      const latestTimestamp = await appClient.getLatestTimestamp({});
+      const account = algosdk.decodeAddress(newAccount.addr);
+      const boxValue = await appClient.appClient.getBoxValue(account.publicKey);
+
+      const dateValue = algosdk.decodeUint64(boxValue, 'safe');
+      const oneDay = 24 * 60 * 60;
+
+      const expected = Number(latestTimestamp.return as bigint) + 365 * oneDay;
+      const diff = Math.abs(expected - dateValue);
+
+      expect(diff).toBeLessThan(60);
+    });
+  });
+
+  test('can delete app', async () => {
+    // temporary while in dev, flip this test to ensure can not delete closer to release
+    const { algod, testAccount } = fixture.context;
+
+    appClient = new OrangeSubscribersClient(
+      {
+        sender: testAccount,
+        resolveBy: 'id',
+        id: 0,
+      },
+      algod
+    );
+
+    const appRes = await appClient.create.createApplication({});
+    console.log(`App ID: ${appRes.appId}`);
+    console.log(`App Address: ${appRes.appAddress}`);
+
+    const deleteRes = await appClient.delete.bare();
+    console.log(deleteRes);
   });
 });
