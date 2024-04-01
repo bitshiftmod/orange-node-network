@@ -1,41 +1,54 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
 
-import {Test} from 'orange-react';
-import {orangeTest} from 'orange-sdk';
+import {
+  WalletProvider,
+  useInitializeProviders,
+  PROVIDER_ID,
+} from "@txnlab/use-wallet";
+import { DeflyWalletConnect } from "@blockshake/defly-connect";
+import { PeraWalletConnect } from "@perawallet/connect";
+// import { DaffiWalletConnect } from '@daffiwallet/connect'
+// import LuteConnect from 'lute-connect'
+import Account from "./Account";
+
+// const mainnetNodeConfig = {
+//   nodeServer: 'https://xna-mainnet-api.algonode.cloud',
+//   nodePort: 443,
+//   network: 'mainnet',
+// }
+
+const testnetNodeConfig = {
+  nodeServer: "https://testnet-api.algonode.cloud",
+  nodePort: 443,
+  network: "testnet",
+};
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  orangeTest();
+  const providers = useInitializeProviders({
+    providers: [
+      { id: PROVIDER_ID.DEFLY, clientStatic: DeflyWalletConnect },
+      { id: PROVIDER_ID.PERA, clientStatic: PeraWalletConnect },
+      // { id: PROVIDER_ID.DAFFI, clientStatic: DaffiWalletConnect },
+      // { id: PROVIDER_ID.EXODUS },
+      // {
+      //   id: PROVIDER_ID.LUTE,
+      //   clientStatic: LuteConnect,
+      //   clientOptions: { siteName: 'YourSiteName' }
+      // },
+      // { id: PROVIDER_ID.KIBISIS }
+    ],
+    nodeConfig: testnetNodeConfig,
+  });
 
   return (
-    <>
-      <Test></Test>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <WalletProvider value={providers}>
+      <div className="navbar bg-base-100">
+      <a className="btn btn-ghost text-xl">Orange Accounts</a>
+
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+      <Account />
+    </WalletProvider>
+  );
 }
 
-export default App
+export default App;

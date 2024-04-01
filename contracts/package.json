@@ -6,7 +6,8 @@
     "deploy": "yarn build && bash ./scripts/deploy.sh",
     "call": "bash ./scripts/call.sh",
     "test": "yarn build:all && jest",
-    "clean": "rm -rf build && rm -rf src/OrangeSubscribersClient.ts"
+    "clean": "rm -rf build && rm -rf src/OrangeSubscribersClient.ts",
+    "copy-to-sdk": "cp src/OrangeSubscribersClient.ts ../packages/orange-sdk/src/"
   },
   "dependencies": {
     "@algorandfoundation/algokit-utils": "^5.5.0",

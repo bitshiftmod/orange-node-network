@@ -1,0 +1,90 @@
+{
+  "name": "OrangeSubscribers",
+  "desc": "",
+  "methods": [
+    {
+      "name": "createApplication",
+      "args": [],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "updateApplication",
+      "args": [],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "deleteApplication",
+      "args": [],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "bootstrap",
+      "args": [
+        {
+          "name": "oraAsaId",
+          "type": "uint64"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "mintGiftNFT",
+      "args": [
+        {
+          "name": "oraPayment",
+          "type": "axfer"
+        },
+        {
+          "name": "subscriptionType",
+          "type": "uint8"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "redeemGiftNFT",
+      "args": [
+        {
+          "name": "giftPayment",
+          "type": "axfer"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "subscribe",
+      "args": [
+        {
+          "name": "oraPayment",
+          "type": "axfer"
+        },
+        {
+          "name": "subscriptionType",
+          "type": "uint8"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "getLatestTimestamp",
+      "args": [],
+      "returns": {
+        "type": "uint64"
+      }
+    }
+  ]
+}

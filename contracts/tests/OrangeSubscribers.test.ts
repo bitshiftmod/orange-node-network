@@ -47,6 +47,7 @@ describe('TestDappContracts', () => {
         sendParams: {
           fee: algokit.microAlgos(6000),
         },
+        assets: [asaId as number],
       }
     );
   });
