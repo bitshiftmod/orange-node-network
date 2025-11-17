@@ -25,8 +25,11 @@ app.use((req, res, next) => {
   }
 });
 
-// default to A1CN node
+// Orange Node API endpoint 
+app.get("/orange/generate_nonce", (req, res) => res.send("Hello Orange API"));
+
 app.get("/orange", (req, res) => res.send("Hello Orange API"));
+
 
 /* Fall back to proxying requests to algod */
 app.use(
