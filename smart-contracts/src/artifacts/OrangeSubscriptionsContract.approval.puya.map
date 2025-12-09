@@ -1,0 +1,7320 @@
+{
+  "version": 3,
+  "sources": [
+    "../OrangeSubscriptions.algo.ts"
+  ],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAoCA;;AAAA;AAAA;AAAA;;AAAA;;;AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;;;AAAA;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;;;;;;AAAA;;;AAAA;;;;AAAA;AAEE;AAmBqB;;AAAnB;AAlBF;;AAmBwB;AAAtB;AAXF;;AAYsC;;;;;AAApC;AAXF;;AAYqC;;;;;;AAAnC;AAlBF;AAmBwB;AAAtB;AAlBF;AAmBqC;AAAnC;AAlBF;AAmBoC;AAAlC;AAPF;AAAA;AAaA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AACS;;AAAe;AAhCxB;AAgCwB;AAAA;AAAf;AAAP;AACO;AA7BT;AA6BS;AAAA;AAAA;AAAP;AACA;AAAA;AA9BF;AAgCE;;AAAA;AAGA;AAIO;;AAHU;;;;;;AACF;;;;;AAFf;;;;;AAAA;AAcO;AAhDT;AAgDS;AAAA;AAAA;AAAP;AACO;AAhDT;AAgDS;AAAA;AAAA;AAAP;AAGiB;AAQV;;AAHI;;AACA;AACJ;;;;;;;;AAHK;;;AADH;;;;AADG;;;;;;;;;;;;AADC;;;;;;;;;;;;;;;;;;;;;;;;;;;AADI;;;;;;AAAA;AApDnB;AAoDmB;;AAWjB;AAGgB;AAQT;;AAHI;;AACA;AACJ;;;;;;;;AAHK;;;AADH;;;;AADG;;;;;;;;;;;;AADC;;;;;;;;;;;;;;;;;;;;;;;;;;;AADG;;;;;;AAAA;AAjElB;AAiEkB;;AAWhB;AAnDF;AAAA;;;AAyDA;;;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AACU;AAxFV;;AAwFU;AAAA;AAAD;AAAP;AAC4B;AAArB;AAAA;AAAA;;;AAAgC;;AAAqB;;AAArB;AAAhC;;;;AAAP;AAEc;AAAA;;;AAA+B;AAnF/C;;AAmF+C;AAAA;;;AAGtC;;AAAP;AACyC;;AAAiB;AAAjB;AAAtB;AAAA;;AAAA;AAAA;AAAA;AAEZ;AAAA;;AAA6B;;AAA7B;AAAP;AACO;AAAA;;AAAyB;AA/FlC;AA+FkC;AAAA;AAAzB;AAAP;AACO;;AAAA;;AAAA;AAAP;AAE4B;AAAA;;;AAC1B;AAlGJ;AAkGI;AAAA;AAEF;AAAA;AAGA;AAIO;;AAHU;;;;;;AACF;;;;;AAFf;;;;;AAAA;AAQsB;;AAA8B;;AAAA;AAApD;AAAA;;AAAA;AAAA;AAAA;AAAA;;;;;;AAAA;AAAA;AAAA;AA5BF;AAAA;AAeuC;AAjGvC;AAiGuC;AAAA;;;;AAX4C;AAlFnF;;AAkFmF;AAAA;;;;;;;;;;;;;;AAgC1E;;AAAP;AAC0C;;AAAiB;AAAjB;AAAA;;AAAtB;;AAAA;AAAA;AAAA;AAEb;AAAA;;AAA8B;;AAA9B;AAAP;AAEE;;AAAA;AAA0B;AA5H9B;AA4H8B;AAAA;AAA1B;AAAA;;;AAC0B;AA5H9B;AA4H8B;AAAA;AAA1B;;AAAA;AADA;;;;AADF;AAKO;;AAAA;;AAA4B;AAA5B;AAAP;AAEe;;AAAA;AAAA;;AA1HD;;AAAA;AAAA;AAAA;AAAA;;AA2HuB;AAAA;;AAAA;;;AACnC;;AAAA;AAAA;AAAA;;;AAEiB;;AAAuB;;AAAvB;AAAA;;;AACjB;;AAE4C;AAzIhD;AAyIgD;AAAA;AAA1B;;AAAA;AACJ;;AAAd;;AADkB;;AAAA;AAEG;AAAA;;AAAA;AAEvB;AAAA;;AAAA;;AAAA;AAGgC;AAAA;AAAhC;;AAAA;AAAA;AAAA;AAAA;AAAA;;;;;;AAAA;AAAA;AAAA;AA3BF;AAAA;;;;;;AAeuC;;;;;;;;;;;;;;;AAkBvC;;;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AACU;AA3JV;;AA2JU;AAAA;AAAD;AAAP;AAC4B;AAArB;AAAA;AAAA;;;AAAgC;;AAAqB;;AAArB;AAAhC;;;;AAAP;AAEc;AAAA;;;AACZ;AAvJJ;;AAuJI;AAAA;;;AAGK;;AAAP;AACyC;;AAAiB;AAAjB;AAAtB;AAAA;;AAAA;AAAA;AAAA;AAEZ;AAAA;;AAA6B;;AAA7B;AAAP;AACO;AAAA;;AAAyB;AAnKlC;AAmKkC;AAAA;AAAzB;AAAP;AACO;;AAAA;;AAAA;AAAP;AAEe;;AAAA;AAAA;;AA7JD;;AAAA;AAAA;AAAA;AAAA;;AA8JuB;AAAA;;AAAA;;;AACnC;;AAAA;AAAA;AAAA;;;AAEiB;;AAAuB;;AAAvB;AAAA;;;AACjB;;AAE+D;;AAAd;;AAA/B;;AAAA;AACG;AAEvB;AAAA;;AAAA;;AAAA;AAG6C;;AAAA;AAA7C;;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;;;;AAAA;AAAA;AAAA;AA5BF;AAAA;;;;;;AAiBuC;;;;;;AAZC;AAtJxC;;AAsJwC;AAAA;;;;;;;;;;AA6BxC;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AACS;;AAAe;AA9LxB;AA8LwB;AAAA;AAAf;AAAP;AACA;;AAAA;AACA;AAAA;AAvLF;;AAyLE;;AAAA;AAxLF;;AAyLE;AAAA;AANF;AAAA;AAYA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AACS;;AAAe;AA1MxB;AA0MwB;AAAA;AAAf;AAAP;AAzMF;;AA0ME;AAAA;AAFF;AAAA;AAQA;;;AAAA;AAAA;AAAA;;AAAA;AAAA;AACS;;AAAe;AAlNxB;AAkNwB;AAAA;AAAf;AAAP;AAlNF;AAmNE;AAAA;AAFF;AAAA;AAQA;;;AAAA;AAAA;AAAA;;AAAA;AAAA;AA5MgB;;AAAA;AAAA;AAAA;AA6MP;AAAA;;AAAA;;;AAAkC;AAAA;AAAA;AAAA;AAD3C;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAC4E;;;;AAM5E;;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAnNgB;;AAAA;AAAA;AAAA;AAoNT;AAAA;;AAAD;;;AAAyC;AAD/C;;;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAES;AAAA;AAAA;AAAA;AAAiC;;AAAjC;AAFT;;;AASS;;AADT;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA",
+  "op_pc_offset": 0,
+  "pc_events": {
+    "1": {
+      "subroutine": "@algorandfoundation/algorand-typescript/arc4/index.d.ts::Contract.approvalProgram",
+      "params": {},
+      "block": "main",
+      "stack_in": [],
+      "op": "intcblock 0 1 8 4 10000000000 31536000 2592000"
+    },
+    "20": {
+      "op": "bytecblock \"admin\" \"giftSubscription30day\" \"oraAsaId\" \"giftSubscriptionYear\" \"isPaused\" \"subscriptionPrice30day\" \"subscriptionPriceYear\" \"subs\" 0x151f7c75 \"template-ipfs://{ipfscid:1:raw:reserve:sha2-256}\""
+    },
+    "193": {
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "195": {
+      "op": "!",
+      "defined_out": [
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%1#0"
+      ]
+    },
+    "196": {
+      "error": "OnCompletion must be NoOp",
+      "op": "assert // OnCompletion must be NoOp",
+      "stack_out": []
+    },
+    "197": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "tmp%2#0"
+      ]
+    },
+    "199": {
+      "op": "bz main_create_NoOp@14",
+      "stack_out": []
+    },
+    "202": {
+      "op": "pushbytess 0xa0cadf8a 0x6f49495a 0x4189a4e0 0x1c3bc417 0x404b579d 0xa1d040e2 0xeed1a1c0 0x3a2eccc3 0xbf6f7b44 0x2976b3e9 // method \"bootstrap(uint64)void\", method \"mintGiftNFT(uint64)void\", method \"redeemGiftNFT()void\", method \"subscribe(uint64)void\", method \"updatePrices(uint64,uint64)void\", method \"setPauseState(bool)void\", method \"updateAdmin(address)void\", method \"getSubscription(address)uint64\", method \"hasActiveSubscription(address)bool\", method \"getLatestTimestamp()uint64\"",
+      "defined_out": [
+        "Method(bootstrap(uint64)void)",
+        "Method(getLatestTimestamp()uint64)",
+        "Method(getSubscription(address)uint64)",
+        "Method(hasActiveSubscription(address)bool)",
+        "Method(mintGiftNFT(uint64)void)",
+        "Method(redeemGiftNFT()void)",
+        "Method(setPauseState(bool)void)",
+        "Method(subscribe(uint64)void)",
+        "Method(updateAdmin(address)void)",
+        "Method(updatePrices(uint64,uint64)void)"
+      ],
+      "stack_out": [
+        "Method(bootstrap(uint64)void)",
+        "Method(mintGiftNFT(uint64)void)",
+        "Method(redeemGiftNFT()void)",
+        "Method(subscribe(uint64)void)",
+        "Method(updatePrices(uint64,uint64)void)",
+        "Method(setPauseState(bool)void)",
+        "Method(updateAdmin(address)void)",
+        "Method(getSubscription(address)uint64)",
+        "Method(hasActiveSubscription(address)bool)",
+        "Method(getLatestTimestamp()uint64)"
+      ]
+    },
+    "254": {
+      "op": "txna ApplicationArgs 0",
+      "defined_out": [
+        "Method(bootstrap(uint64)void)",
+        "Method(getLatestTimestamp()uint64)",
+        "Method(getSubscription(address)uint64)",
+        "Method(hasActiveSubscription(address)bool)",
+        "Method(mintGiftNFT(uint64)void)",
+        "Method(redeemGiftNFT()void)",
+        "Method(setPauseState(bool)void)",
+        "Method(subscribe(uint64)void)",
+        "Method(updateAdmin(address)void)",
+        "Method(updatePrices(uint64,uint64)void)",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "Method(bootstrap(uint64)void)",
+        "Method(mintGiftNFT(uint64)void)",
+        "Method(redeemGiftNFT()void)",
+        "Method(subscribe(uint64)void)",
+        "Method(updatePrices(uint64,uint64)void)",
+        "Method(setPauseState(bool)void)",
+        "Method(updateAdmin(address)void)",
+        "Method(getSubscription(address)uint64)",
+        "Method(hasActiveSubscription(address)bool)",
+        "Method(getLatestTimestamp()uint64)",
+        "tmp%4#0"
+      ]
+    },
+    "257": {
+      "op": "match bootstrap mintGiftNFT redeemGiftNFT subscribe updatePrices setPauseState updateAdmin getSubscription hasActiveSubscription getLatestTimestamp",
+      "stack_out": []
+    },
+    "279": {
+      "op": "err"
+    },
+    "280": {
+      "block": "main_create_NoOp@14",
+      "stack_in": [],
+      "op": "pushbytes 0xb8447b36 // method \"createApplication()void\"",
+      "defined_out": [
+        "Method(createApplication()void)"
+      ],
+      "stack_out": [
+        "Method(createApplication()void)"
+      ]
+    },
+    "286": {
+      "op": "txna ApplicationArgs 0",
+      "defined_out": [
+        "Method(createApplication()void)",
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "Method(createApplication()void)",
+        "tmp%5#0"
+      ]
+    },
+    "289": {
+      "op": "match createApplication",
+      "stack_out": []
+    },
+    "293": {
+      "op": "err"
+    },
+    "294": {
+      "subroutine": "src/OrangeSubscriptions.algo.ts::OrangeSubscriptionsContract.createApplication[routing]",
+      "params": {},
+      "block": "createApplication",
+      "stack_in": [],
+      "op": "bytec_0 // \"admin\"",
+      "defined_out": [
+        "\"admin\""
+      ],
+      "stack_out": [
+        "\"admin\""
+      ]
+    },
+    "295": {
+      "op": "txn Sender",
+      "defined_out": [
+        "\"admin\"",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "\"admin\"",
+        "tmp%0#0"
+      ]
+    },
+    "297": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "298": {
+      "op": "bytec 4 // \"isPaused\"",
+      "defined_out": [
+        "\"isPaused\""
+      ],
+      "stack_out": [
+        "\"isPaused\""
+      ]
+    },
+    "300": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "\"isPaused\"",
+        "0"
+      ],
+      "stack_out": [
+        "\"isPaused\"",
+        "0"
+      ]
+    },
+    "301": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "302": {
+      "op": "bytec 5 // \"subscriptionPrice30day\"",
+      "defined_out": [
+        "\"subscriptionPrice30day\""
+      ],
+      "stack_out": [
+        "\"subscriptionPrice30day\""
+      ]
+    },
+    "304": {
+      "op": "pushint 100000000 // 100000000",
+      "defined_out": [
+        "\"subscriptionPrice30day\"",
+        "100000000"
+      ],
+      "stack_out": [
+        "\"subscriptionPrice30day\"",
+        "100000000"
+      ]
+    },
+    "309": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "310": {
+      "op": "bytec 6 // \"subscriptionPriceYear\"",
+      "defined_out": [
+        "\"subscriptionPriceYear\""
+      ],
+      "stack_out": [
+        "\"subscriptionPriceYear\""
+      ]
+    },
+    "312": {
+      "op": "pushint 1200000000 // 1200000000",
+      "defined_out": [
+        "\"subscriptionPriceYear\"",
+        "1200000000"
+      ],
+      "stack_out": [
+        "\"subscriptionPriceYear\"",
+        "1200000000"
+      ]
+    },
+    "318": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "319": {
+      "op": "bytec_2 // \"oraAsaId\"",
+      "defined_out": [
+        "\"oraAsaId\""
+      ],
+      "stack_out": [
+        "\"oraAsaId\""
+      ]
+    },
+    "320": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "\"oraAsaId\"",
+        "0"
+      ]
+    },
+    "321": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "322": {
+      "op": "bytec_1 // \"giftSubscription30day\"",
+      "defined_out": [
+        "\"giftSubscription30day\""
+      ],
+      "stack_out": [
+        "\"giftSubscription30day\""
+      ]
+    },
+    "323": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "\"giftSubscription30day\"",
+        "0"
+      ]
+    },
+    "324": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "325": {
+      "op": "bytec_3 // \"giftSubscriptionYear\"",
+      "defined_out": [
+        "\"giftSubscriptionYear\""
+      ],
+      "stack_out": [
+        "\"giftSubscriptionYear\""
+      ]
+    },
+    "326": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "\"giftSubscriptionYear\"",
+        "0"
+      ]
+    },
+    "327": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "328": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1"
+      ],
+      "stack_out": [
+        "1"
+      ]
+    },
+    "329": {
+      "op": "return",
+      "stack_out": []
+    },
+    "330": {
+      "subroutine": "src/OrangeSubscriptions.algo.ts::OrangeSubscriptionsContract.bootstrap[routing]",
+      "params": {},
+      "block": "bootstrap",
+      "stack_in": [],
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "333": {
+      "op": "dup",
+      "defined_out": [
+        "tmp%0#0",
+        "tmp%0#0 (copy)"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%0#0 (copy)"
+      ]
+    },
+    "334": {
+      "op": "len",
+      "defined_out": [
+        "len%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "len%0#0"
+      ]
+    },
+    "335": {
+      "op": "intc_2 // 8",
+      "defined_out": [
+        "8",
+        "len%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "len%0#0",
+        "8"
+      ]
+    },
+    "336": {
+      "op": "==",
+      "defined_out": [
+        "eq%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "eq%0#0"
+      ]
+    },
+    "337": {
+      "error": "invalid number of bytes for arc4.uint64",
+      "op": "assert // invalid number of bytes for arc4.uint64",
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "338": {
+      "op": "btoi",
+      "defined_out": [
+        "oraAsaId#0"
+      ],
+      "stack_out": [
+        "oraAsaId#0"
+      ]
+    },
+    "339": {
+      "op": "txn Sender",
+      "defined_out": [
+        "oraAsaId#0",
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "oraAsaId#0",
+        "tmp%0#1"
+      ]
+    },
+    "341": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "oraAsaId#0",
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "oraAsaId#0",
+        "tmp%0#1",
+        "0"
+      ]
+    },
+    "342": {
+      "op": "bytec_0 // \"admin\"",
+      "defined_out": [
+        "\"admin\"",
+        "0",
+        "oraAsaId#0",
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "oraAsaId#0",
+        "tmp%0#1",
+        "0",
+        "\"admin\""
+      ]
+    },
+    "343": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0",
+        "oraAsaId#0",
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "oraAsaId#0",
+        "tmp%0#1",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "344": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "oraAsaId#0",
+        "tmp%0#1",
+        "maybe_value%0#0"
+      ]
+    },
+    "345": {
+      "op": "==",
+      "defined_out": [
+        "oraAsaId#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "oraAsaId#0",
+        "tmp%1#1"
+      ]
+    },
+    "346": {
+      "error": "Admin only",
+      "op": "assert // Admin only",
+      "stack_out": [
+        "oraAsaId#0"
+      ]
+    },
+    "347": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "oraAsaId#0",
+        "0"
+      ]
+    },
+    "348": {
+      "op": "bytec_2 // \"oraAsaId\"",
+      "defined_out": [
+        "\"oraAsaId\"",
+        "0",
+        "oraAsaId#0"
+      ],
+      "stack_out": [
+        "oraAsaId#0",
+        "0",
+        "\"oraAsaId\""
+      ]
+    },
+    "349": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%1#0",
+        "maybe_value%1#0",
+        "oraAsaId#0"
+      ],
+      "stack_out": [
+        "oraAsaId#0",
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "350": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "oraAsaId#0",
+        "maybe_value%1#0"
+      ]
+    },
+    "351": {
+      "op": "!",
+      "defined_out": [
+        "oraAsaId#0",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "oraAsaId#0",
+        "tmp%2#0"
+      ]
+    },
+    "352": {
+      "error": "Already bootstrapped",
+      "op": "assert // Already bootstrapped",
+      "stack_out": [
+        "oraAsaId#0"
+      ]
+    },
+    "353": {
+      "op": "dup",
+      "defined_out": [
+        "oraAsaId#0",
+        "oraAsaId#0 (copy)"
+      ],
+      "stack_out": [
+        "oraAsaId#0",
+        "oraAsaId#0 (copy)"
+      ]
+    },
+    "354": {
+      "error": "ASA must be non-zero",
+      "op": "assert // ASA must be non-zero",
+      "stack_out": [
+        "oraAsaId#0"
+      ]
+    },
+    "355": {
+      "op": "bytec_2 // \"oraAsaId\"",
+      "stack_out": [
+        "oraAsaId#0",
+        "\"oraAsaId\""
+      ]
+    },
+    "356": {
+      "op": "dig 1",
+      "stack_out": [
+        "oraAsaId#0",
+        "\"oraAsaId\"",
+        "oraAsaId#0 (copy)"
+      ]
+    },
+    "358": {
+      "op": "app_global_put",
+      "stack_out": [
+        "oraAsaId#0"
+      ]
+    },
+    "359": {
+      "op": "itxn_begin"
+    },
+    "360": {
+      "op": "global MinTxnFee",
+      "defined_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "oraAsaId#0"
+      ],
+      "stack_out": [
+        "oraAsaId#0",
+        "inner_txn_params%0%%param_Fee_idx_0#0"
+      ]
+    },
+    "362": {
+      "op": "global CurrentApplicationAddress",
+      "defined_out": [
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0",
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "oraAsaId#0"
+      ],
+      "stack_out": [
+        "oraAsaId#0",
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0"
+      ]
+    },
+    "364": {
+      "op": "uncover 2",
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0",
+        "oraAsaId#0"
+      ]
+    },
+    "366": {
+      "op": "itxn_field XferAsset",
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0"
+      ]
+    },
+    "368": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0",
+        "0"
+      ]
+    },
+    "369": {
+      "op": "itxn_field AssetAmount",
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0"
+      ]
+    },
+    "371": {
+      "op": "itxn_field AssetReceiver",
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0"
+      ]
+    },
+    "373": {
+      "op": "intc_3 // 4",
+      "defined_out": [
+        "4",
+        "inner_txn_params%0%%param_Fee_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "4"
+      ]
+    },
+    "374": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0"
+      ]
+    },
+    "376": {
+      "op": "itxn_field Fee",
+      "stack_out": []
+    },
+    "378": {
+      "op": "itxn_submit"
+    },
+    "379": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "0"
+      ]
+    },
+    "380": {
+      "op": "bytec_1 // \"giftSubscription30day\"",
+      "defined_out": [
+        "\"giftSubscription30day\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"giftSubscription30day\""
+      ]
+    },
+    "381": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#1"
+      ],
+      "stack_out": [
+        "maybe_value%0#1",
+        "maybe_exists%0#0"
+      ]
+    },
+    "382": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "maybe_value%0#1"
+      ]
+    },
+    "383": {
+      "op": "!",
+      "defined_out": [
+        "tmp%0#2"
+      ],
+      "stack_out": [
+        "tmp%0#2"
+      ]
+    },
+    "384": {
+      "error": "Gift NFTs already created",
+      "op": "assert // Gift NFTs already created",
+      "stack_out": []
+    },
+    "385": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "0"
+      ]
+    },
+    "386": {
+      "op": "bytec_3 // \"giftSubscriptionYear\"",
+      "defined_out": [
+        "\"giftSubscriptionYear\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"giftSubscriptionYear\""
+      ]
+    },
+    "387": {
+      "op": "app_global_get_ex",
+      "stack_out": [
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "388": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "maybe_value%1#0"
+      ]
+    },
+    "389": {
+      "op": "!",
+      "stack_out": [
+        "tmp%1#1"
+      ]
+    },
+    "390": {
+      "error": "Gift NFTs already created",
+      "op": "assert // Gift NFTs already created",
+      "stack_out": []
+    },
+    "391": {
+      "op": "itxn_begin"
+    },
+    "392": {
+      "op": "global MinTxnFee",
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0"
+      ]
+    },
+    "394": {
+      "op": "global CurrentApplicationAddress",
+      "defined_out": [
+        "inner_txn_params%0%%param_ConfigAssetManager_idx_0#0",
+        "inner_txn_params%0%%param_Fee_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "inner_txn_params%0%%param_ConfigAssetManager_idx_0#0"
+      ]
+    },
+    "396": {
+      "op": "dup",
+      "defined_out": [
+        "inner_txn_params%0%%param_ConfigAssetManager_idx_0#0",
+        "inner_txn_params%0%%param_ConfigAssetReserve_idx_0#0",
+        "inner_txn_params%0%%param_Fee_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "inner_txn_params%0%%param_ConfigAssetManager_idx_0#0",
+        "inner_txn_params%0%%param_ConfigAssetReserve_idx_0#0"
+      ]
+    },
+    "397": {
+      "op": "bytec 9 // \"template-ipfs://{ipfscid:1:raw:reserve:sha2-256}\"",
+      "defined_out": [
+        "\"template-ipfs://{ipfscid:1:raw:reserve:sha2-256}\"",
+        "inner_txn_params%0%%param_ConfigAssetManager_idx_0#0",
+        "inner_txn_params%0%%param_ConfigAssetReserve_idx_0#0",
+        "inner_txn_params%0%%param_Fee_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "inner_txn_params%0%%param_ConfigAssetManager_idx_0#0",
+        "inner_txn_params%0%%param_ConfigAssetReserve_idx_0#0",
+        "\"template-ipfs://{ipfscid:1:raw:reserve:sha2-256}\""
+      ]
+    },
+    "399": {
+      "op": "itxn_field ConfigAssetURL",
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "inner_txn_params%0%%param_ConfigAssetManager_idx_0#0",
+        "inner_txn_params%0%%param_ConfigAssetReserve_idx_0#0"
+      ]
+    },
+    "401": {
+      "op": "itxn_field ConfigAssetReserve",
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "inner_txn_params%0%%param_ConfigAssetManager_idx_0#0"
+      ]
+    },
+    "403": {
+      "op": "itxn_field ConfigAssetManager",
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0"
+      ]
+    },
+    "405": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "0"
+      ]
+    },
+    "406": {
+      "op": "itxn_field ConfigAssetDecimals",
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0"
+      ]
+    },
+    "408": {
+      "op": "intc 4 // 10000000000",
+      "defined_out": [
+        "10000000000",
+        "inner_txn_params%0%%param_Fee_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "10000000000"
+      ]
+    },
+    "410": {
+      "op": "itxn_field ConfigAssetTotal",
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0"
+      ]
+    },
+    "412": {
+      "op": "pushbytes \"ORA30day\"",
+      "defined_out": [
+        "\"ORA30day\"",
+        "inner_txn_params%0%%param_Fee_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "\"ORA30day\""
+      ]
+    },
+    "422": {
+      "op": "itxn_field ConfigAssetUnitName",
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0"
+      ]
+    },
+    "424": {
+      "op": "pushbytes \"ORA 30 Day Subscription\"",
+      "defined_out": [
+        "\"ORA 30 Day Subscription\"",
+        "inner_txn_params%0%%param_Fee_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "\"ORA 30 Day Subscription\""
+      ]
+    },
+    "449": {
+      "op": "itxn_field ConfigAssetName",
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0"
+      ]
+    },
+    "451": {
+      "op": "pushint 3 // 3",
+      "defined_out": [
+        "3",
+        "inner_txn_params%0%%param_Fee_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "3"
+      ]
+    },
+    "453": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0"
+      ]
+    },
+    "455": {
+      "op": "itxn_field Fee",
+      "stack_out": []
+    },
+    "457": {
+      "op": "itxn_submit"
+    },
+    "458": {
+      "op": "bytec_1 // \"giftSubscription30day\"",
+      "stack_out": [
+        "\"giftSubscription30day\""
+      ]
+    },
+    "459": {
+      "op": "itxn CreatedAssetID",
+      "defined_out": [
+        "\"giftSubscription30day\"",
+        "nft30day#0"
+      ],
+      "stack_out": [
+        "\"giftSubscription30day\"",
+        "nft30day#0"
+      ]
+    },
+    "461": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "462": {
+      "op": "itxn_begin"
+    },
+    "463": {
+      "op": "global MinTxnFee",
+      "defined_out": [
+        "inner_txn_params%1%%param_Fee_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%1%%param_Fee_idx_0#0"
+      ]
+    },
+    "465": {
+      "op": "global CurrentApplicationAddress",
+      "defined_out": [
+        "inner_txn_params%1%%param_ConfigAssetManager_idx_0#0",
+        "inner_txn_params%1%%param_Fee_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%1%%param_Fee_idx_0#0",
+        "inner_txn_params%1%%param_ConfigAssetManager_idx_0#0"
+      ]
+    },
+    "467": {
+      "op": "dup",
+      "defined_out": [
+        "inner_txn_params%1%%param_ConfigAssetManager_idx_0#0",
+        "inner_txn_params%1%%param_ConfigAssetReserve_idx_0#0",
+        "inner_txn_params%1%%param_Fee_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%1%%param_Fee_idx_0#0",
+        "inner_txn_params%1%%param_ConfigAssetManager_idx_0#0",
+        "inner_txn_params%1%%param_ConfigAssetReserve_idx_0#0"
+      ]
+    },
+    "468": {
+      "op": "bytec 9 // \"template-ipfs://{ipfscid:1:raw:reserve:sha2-256}\"",
+      "stack_out": [
+        "inner_txn_params%1%%param_Fee_idx_0#0",
+        "inner_txn_params%1%%param_ConfigAssetManager_idx_0#0",
+        "inner_txn_params%1%%param_ConfigAssetReserve_idx_0#0",
+        "\"template-ipfs://{ipfscid:1:raw:reserve:sha2-256}\""
+      ]
+    },
+    "470": {
+      "op": "itxn_field ConfigAssetURL",
+      "stack_out": [
+        "inner_txn_params%1%%param_Fee_idx_0#0",
+        "inner_txn_params%1%%param_ConfigAssetManager_idx_0#0",
+        "inner_txn_params%1%%param_ConfigAssetReserve_idx_0#0"
+      ]
+    },
+    "472": {
+      "op": "itxn_field ConfigAssetReserve",
+      "stack_out": [
+        "inner_txn_params%1%%param_Fee_idx_0#0",
+        "inner_txn_params%1%%param_ConfigAssetManager_idx_0#0"
+      ]
+    },
+    "474": {
+      "op": "itxn_field ConfigAssetManager",
+      "stack_out": [
+        "inner_txn_params%1%%param_Fee_idx_0#0"
+      ]
+    },
+    "476": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "inner_txn_params%1%%param_Fee_idx_0#0",
+        "0"
+      ]
+    },
+    "477": {
+      "op": "itxn_field ConfigAssetDecimals",
+      "stack_out": [
+        "inner_txn_params%1%%param_Fee_idx_0#0"
+      ]
+    },
+    "479": {
+      "op": "intc 4 // 10000000000",
+      "stack_out": [
+        "inner_txn_params%1%%param_Fee_idx_0#0",
+        "10000000000"
+      ]
+    },
+    "481": {
+      "op": "itxn_field ConfigAssetTotal",
+      "stack_out": [
+        "inner_txn_params%1%%param_Fee_idx_0#0"
+      ]
+    },
+    "483": {
+      "op": "pushbytes \"ORA1Year\"",
+      "defined_out": [
+        "\"ORA1Year\"",
+        "inner_txn_params%1%%param_Fee_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%1%%param_Fee_idx_0#0",
+        "\"ORA1Year\""
+      ]
+    },
+    "493": {
+      "op": "itxn_field ConfigAssetUnitName",
+      "stack_out": [
+        "inner_txn_params%1%%param_Fee_idx_0#0"
+      ]
+    },
+    "495": {
+      "op": "pushbytes \"ORA 1 Year Subscription\"",
+      "defined_out": [
+        "\"ORA 1 Year Subscription\"",
+        "inner_txn_params%1%%param_Fee_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%1%%param_Fee_idx_0#0",
+        "\"ORA 1 Year Subscription\""
+      ]
+    },
+    "520": {
+      "op": "itxn_field ConfigAssetName",
+      "stack_out": [
+        "inner_txn_params%1%%param_Fee_idx_0#0"
+      ]
+    },
+    "522": {
+      "op": "pushint 3 // 3",
+      "stack_out": [
+        "inner_txn_params%1%%param_Fee_idx_0#0",
+        "3"
+      ]
+    },
+    "524": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": [
+        "inner_txn_params%1%%param_Fee_idx_0#0"
+      ]
+    },
+    "526": {
+      "op": "itxn_field Fee",
+      "stack_out": []
+    },
+    "528": {
+      "op": "itxn_submit"
+    },
+    "529": {
+      "op": "bytec_3 // \"giftSubscriptionYear\"",
+      "stack_out": [
+        "\"giftSubscriptionYear\""
+      ]
+    },
+    "530": {
+      "op": "itxn CreatedAssetID",
+      "defined_out": [
+        "\"giftSubscriptionYear\"",
+        "nftYear#0"
+      ],
+      "stack_out": [
+        "\"giftSubscriptionYear\"",
+        "nftYear#0"
+      ]
+    },
+    "532": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "533": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1"
+      ],
+      "stack_out": [
+        "1"
+      ]
+    },
+    "534": {
+      "op": "return",
+      "stack_out": []
+    },
+    "535": {
+      "subroutine": "src/OrangeSubscriptions.algo.ts::OrangeSubscriptionsContract.mintGiftNFT[routing]",
+      "params": {},
+      "block": "mintGiftNFT",
+      "stack_in": [],
+      "op": "pushbytes \"\"",
+      "stack_out": [
+        "price#0"
+      ]
+    },
+    "537": {
+      "op": "txna ApplicationArgs 1"
+    },
+    "540": {
+      "op": "dupn 2",
+      "defined_out": [
+        "tmp%0#0",
+        "tmp%0#0 (copy)"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "tmp%0#0",
+        "tmp%0#0 (copy)"
+      ]
+    },
+    "542": {
+      "op": "len",
+      "defined_out": [
+        "len%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "tmp%0#0",
+        "len%0#0"
+      ]
+    },
+    "543": {
+      "op": "intc_2 // 8",
+      "defined_out": [
+        "8",
+        "len%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "tmp%0#0",
+        "len%0#0",
+        "8"
+      ]
+    },
+    "544": {
+      "op": "==",
+      "defined_out": [
+        "eq%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "tmp%0#0",
+        "eq%0#0"
+      ]
+    },
+    "545": {
+      "error": "invalid number of bytes for arc4.uint64",
+      "op": "assert // invalid number of bytes for arc4.uint64",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "tmp%0#0"
+      ]
+    },
+    "546": {
+      "op": "btoi",
+      "defined_out": [
+        "subscriptionType#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0"
+      ]
+    },
+    "547": {
+      "op": "dup",
+      "defined_out": [
+        "subscriptionType#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "subscriptionType#0"
+      ]
+    },
+    "548": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "subscriptionType#0",
+        "0"
+      ]
+    },
+    "549": {
+      "op": "bytec 4 // \"isPaused\"",
+      "defined_out": [
+        "\"isPaused\"",
+        "0",
+        "subscriptionType#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "subscriptionType#0",
+        "0",
+        "\"isPaused\""
+      ]
+    },
+    "551": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0",
+        "subscriptionType#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "subscriptionType#0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "552": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "subscriptionType#0",
+        "maybe_value%0#0"
+      ]
+    },
+    "553": {
+      "op": "!",
+      "defined_out": [
+        "subscriptionType#0",
+        "tmp%0#0",
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "subscriptionType#0",
+        "tmp%0#1"
+      ]
+    },
+    "554": {
+      "error": "Contract is paused",
+      "op": "assert // Contract is paused",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "subscriptionType#0"
+      ]
+    },
+    "555": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "subscriptionType#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "subscriptionType#0",
+        "1"
+      ]
+    },
+    "556": {
+      "op": "==",
+      "defined_out": [
+        "subscriptionType#0",
+        "tmp%0#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ]
+    },
+    "557": {
+      "op": "dup",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "tmp%1#1"
+      ]
+    },
+    "558": {
+      "op": "bnz mintGiftNFT_bool_true@3",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ]
+    },
+    "561": {
+      "op": "dig 1",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "subscriptionType#0"
+      ]
+    },
+    "563": {
+      "op": "pushint 2 // 2",
+      "defined_out": [
+        "2",
+        "subscriptionType#0",
+        "tmp%0#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "subscriptionType#0",
+        "2"
+      ]
+    },
+    "565": {
+      "op": "==",
+      "defined_out": [
+        "subscriptionType#0",
+        "tmp%0#0",
+        "tmp%1#1",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "tmp%2#0"
+      ]
+    },
+    "566": {
+      "op": "bz mintGiftNFT_bool_false@4",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ]
+    },
+    "569": {
+      "block": "mintGiftNFT_bool_true@3",
+      "stack_in": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ],
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "or_result%0#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "or_result%0#0"
+      ]
+    },
+    "570": {
+      "error": "Invalid subscription type",
+      "block": "mintGiftNFT_bool_merge@5",
+      "stack_in": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "or_result%0#0"
+      ],
+      "op": "assert // Invalid subscription type",
+      "defined_out": [],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ]
+    },
+    "571": {
+      "op": "dup",
+      "defined_out": [
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "tmp%1#1"
+      ]
+    },
+    "572": {
+      "op": "bz mintGiftNFT_ternary_false@7",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ]
+    },
+    "575": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "0"
+      ]
+    },
+    "576": {
+      "op": "bytec 5 // \"subscriptionPrice30day\"",
+      "defined_out": [
+        "\"subscriptionPrice30day\"",
+        "0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "0",
+        "\"subscriptionPrice30day\""
+      ]
+    },
+    "578": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%1#0",
+        "maybe_value%1#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "579": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "defined_out": [
+        "price#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "price#0"
+      ]
+    },
+    "580": {
+      "op": "bury 4",
+      "defined_out": [
+        "price#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ]
+    },
+    "582": {
+      "block": "mintGiftNFT_ternary_merge@8",
+      "stack_in": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ],
+      "op": "txn GroupIndex",
+      "defined_out": [
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "tmp%4#0"
+      ]
+    },
+    "584": {
+      "error": "Payment required",
+      "op": "assert // Payment required",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ]
+    },
+    "585": {
+      "op": "txn GroupIndex",
+      "defined_out": [
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "tmp%6#0"
+      ]
+    },
+    "587": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "tmp%6#0",
+        "1"
+      ]
+    },
+    "588": {
+      "op": "-",
+      "defined_out": [
+        "oraPayment#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0"
+      ]
+    },
+    "589": {
+      "op": "dup",
+      "defined_out": [
+        "oraPayment#0",
+        "oraPayment#0 (copy)"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "oraPayment#0 (copy)"
+      ]
+    },
+    "590": {
+      "op": "gtxns TypeEnum",
+      "defined_out": [
+        "gtxn_type%0#0",
+        "oraPayment#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "gtxn_type%0#0"
+      ]
+    },
+    "592": {
+      "op": "intc_3 // axfer",
+      "defined_out": [
+        "axfer",
+        "gtxn_type%0#0",
+        "oraPayment#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "gtxn_type%0#0",
+        "axfer"
+      ]
+    },
+    "593": {
+      "op": "==",
+      "defined_out": [
+        "gtxn_type_matches%0#0",
+        "oraPayment#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "gtxn_type_matches%0#0"
+      ]
+    },
+    "594": {
+      "error": "transaction type is axfer",
+      "op": "assert // transaction type is axfer",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0"
+      ]
+    },
+    "595": {
+      "op": "dup",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "oraPayment#0 (copy)"
+      ]
+    },
+    "596": {
+      "op": "gtxns AssetReceiver",
+      "defined_out": [
+        "oraPayment#0",
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "tmp%7#0"
+      ]
+    },
+    "598": {
+      "op": "global CurrentApplicationAddress",
+      "defined_out": [
+        "oraPayment#0",
+        "tmp%7#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "tmp%7#0",
+        "tmp%8#0"
+      ]
+    },
+    "600": {
+      "op": "==",
+      "defined_out": [
+        "oraPayment#0",
+        "tmp%9#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "tmp%9#0"
+      ]
+    },
+    "601": {
+      "error": "Payment required",
+      "op": "assert // Payment required",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0"
+      ]
+    },
+    "602": {
+      "op": "dup",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "oraPayment#0 (copy)"
+      ]
+    },
+    "603": {
+      "op": "gtxns XferAsset",
+      "defined_out": [
+        "oraPayment#0",
+        "tmp%10#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "tmp%10#0"
+      ]
+    },
+    "605": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "oraPayment#0",
+        "tmp%10#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "tmp%10#0",
+        "0"
+      ]
+    },
+    "606": {
+      "op": "bytec_2 // \"oraAsaId\"",
+      "defined_out": [
+        "\"oraAsaId\"",
+        "0",
+        "oraPayment#0",
+        "tmp%10#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "tmp%10#0",
+        "0",
+        "\"oraAsaId\""
+      ]
+    },
+    "607": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%3#0",
+        "maybe_value%3#0",
+        "oraPayment#0",
+        "tmp%10#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "tmp%10#0",
+        "maybe_value%3#0",
+        "maybe_exists%3#0"
+      ]
+    },
+    "608": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "tmp%10#0",
+        "maybe_value%3#0"
+      ]
+    },
+    "609": {
+      "op": "==",
+      "defined_out": [
+        "oraPayment#0",
+        "tmp%11#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "tmp%11#0"
+      ]
+    },
+    "610": {
+      "error": "Wrong ASA",
+      "op": "assert // Wrong ASA",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0"
+      ]
+    },
+    "611": {
+      "op": "gtxns AssetAmount",
+      "defined_out": [
+        "tmp%12#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "tmp%12#0"
+      ]
+    },
+    "613": {
+      "op": "dig 4",
+      "defined_out": [
+        "price#0",
+        "tmp%12#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "tmp%12#0",
+        "price#0"
+      ]
+    },
+    "615": {
+      "op": "==",
+      "defined_out": [
+        "price#0",
+        "tmp%13#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "tmp%13#0"
+      ]
+    },
+    "616": {
+      "error": "Incorrect payment amount",
+      "op": "assert // Incorrect payment amount",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ]
+    },
+    "617": {
+      "op": "dup",
+      "defined_out": [
+        "price#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "tmp%1#1"
+      ]
+    },
+    "618": {
+      "op": "bz mintGiftNFT_ternary_false@10",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ]
+    },
+    "621": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "0"
+      ]
+    },
+    "622": {
+      "op": "bytec_1 // \"giftSubscription30day\"",
+      "defined_out": [
+        "\"giftSubscription30day\"",
+        "0",
+        "price#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "0",
+        "\"giftSubscription30day\""
+      ]
+    },
+    "623": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%4#0",
+        "maybe_value%4#0",
+        "price#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "maybe_value%4#0",
+        "maybe_exists%4#0"
+      ]
+    },
+    "624": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "defined_out": [
+        "price#0",
+        "subscriptionAssetId#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "subscriptionAssetId#0"
+      ]
+    },
+    "625": {
+      "block": "mintGiftNFT_ternary_merge@11",
+      "stack_in": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "subscriptionAssetId#0"
+      ],
+      "op": "dup",
+      "defined_out": [
+        "subscriptionAssetId#0",
+        "subscriptionAssetId#0 (copy)"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "subscriptionAssetId#0",
+        "subscriptionAssetId#0 (copy)"
+      ]
+    },
+    "626": {
+      "error": "Gift NFTs not created",
+      "op": "assert // Gift NFTs not created",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "subscriptionAssetId#0"
+      ]
+    },
+    "627": {
+      "op": "itxn_begin"
+    },
+    "628": {
+      "op": "global MinTxnFee",
+      "defined_out": [
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "subscriptionAssetId#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "subscriptionAssetId#0",
+        "inner_txn_params%0%%param_Fee_idx_0#0"
+      ]
+    },
+    "630": {
+      "op": "txn Sender",
+      "defined_out": [
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0",
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "subscriptionAssetId#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "subscriptionAssetId#0",
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0"
+      ]
+    },
+    "632": {
+      "op": "uncover 2",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0",
+        "subscriptionAssetId#0"
+      ]
+    },
+    "634": {
+      "op": "itxn_field XferAsset",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0"
+      ]
+    },
+    "636": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0",
+        "inner_txn_params%0%%param_Fee_idx_0#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0",
+        "1"
+      ]
+    },
+    "637": {
+      "op": "itxn_field AssetAmount",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "inner_txn_params%0%%param_AssetReceiver_idx_0#0"
+      ]
+    },
+    "639": {
+      "op": "itxn_field AssetReceiver",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "inner_txn_params%0%%param_Fee_idx_0#0"
+      ]
+    },
+    "641": {
+      "op": "intc_3 // 4",
+      "defined_out": [
+        "4",
+        "inner_txn_params%0%%param_Fee_idx_0#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "inner_txn_params%0%%param_Fee_idx_0#0",
+        "4"
+      ]
+    },
+    "642": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "inner_txn_params%0%%param_Fee_idx_0#0"
+      ]
+    },
+    "644": {
+      "op": "itxn_field Fee",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ]
+    },
+    "646": {
+      "op": "itxn_submit"
+    },
+    "647": {
+      "op": "txn Sender",
+      "defined_out": [
+        "tmp%16#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "tmp%16#0"
+      ]
+    },
+    "649": {
+      "op": "dig 4",
+      "defined_out": [
+        "price#0",
+        "tmp%16#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "tmp%16#0",
+        "price#0"
+      ]
+    },
+    "651": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%val_as_bytes%0#0",
+        "price#0",
+        "tmp%16#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "tmp%16#0",
+        "aggregate%val_as_bytes%0#0"
+      ]
+    },
+    "652": {
+      "op": "swap",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "aggregate%val_as_bytes%0#0",
+        "tmp%16#0"
+      ]
+    },
+    "653": {
+      "op": "dig 4",
+      "defined_out": [
+        "aggregate%val_as_bytes%0#0",
+        "price#0",
+        "tmp%0#0",
+        "tmp%16#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "aggregate%val_as_bytes%0#0",
+        "tmp%16#0",
+        "tmp%0#0"
+      ]
+    },
+    "655": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%head%1#0",
+        "aggregate%val_as_bytes%0#0",
+        "price#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "aggregate%val_as_bytes%0#0",
+        "aggregate%head%1#0"
+      ]
+    },
+    "656": {
+      "op": "swap",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "aggregate%head%1#0",
+        "aggregate%val_as_bytes%0#0"
+      ]
+    },
+    "657": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%head%2#0",
+        "price#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "aggregate%head%2#0"
+      ]
+    },
+    "658": {
+      "op": "pushbytes 0xa1bfa729 // method \"GiftNFTMinted(address,uint64,uint64)\"",
+      "defined_out": [
+        "Method(GiftNFTMinted(address,uint64,uint64))",
+        "aggregate%head%2#0",
+        "price#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "aggregate%head%2#0",
+        "Method(GiftNFTMinted(address,uint64,uint64))"
+      ]
+    },
+    "664": {
+      "op": "swap",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "Method(GiftNFTMinted(address,uint64,uint64))",
+        "aggregate%head%2#0"
+      ]
+    },
+    "665": {
+      "op": "concat",
+      "defined_out": [
+        "event%0#0",
+        "price#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "event%0#0"
+      ]
+    },
+    "666": {
+      "op": "log",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ]
+    },
+    "667": {
+      "op": "intc_1 // 1",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "1"
+      ]
+    },
+    "668": {
+      "op": "return",
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ]
+    },
+    "669": {
+      "block": "mintGiftNFT_ternary_false@10",
+      "stack_in": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "0"
+      ]
+    },
+    "670": {
+      "op": "bytec_3 // \"giftSubscriptionYear\"",
+      "defined_out": [
+        "\"giftSubscriptionYear\"",
+        "0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "0",
+        "\"giftSubscriptionYear\""
+      ]
+    },
+    "671": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%5#0",
+        "maybe_value%5#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "maybe_value%5#0",
+        "maybe_exists%5#0"
+      ]
+    },
+    "672": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "defined_out": [
+        "subscriptionAssetId#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "subscriptionAssetId#0"
+      ]
+    },
+    "673": {
+      "op": "b mintGiftNFT_ternary_merge@11"
+    },
+    "676": {
+      "block": "mintGiftNFT_ternary_false@7",
+      "stack_in": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "0"
+      ]
+    },
+    "677": {
+      "op": "bytec 6 // \"subscriptionPriceYear\"",
+      "defined_out": [
+        "\"subscriptionPriceYear\"",
+        "0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "0",
+        "\"subscriptionPriceYear\""
+      ]
+    },
+    "679": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%2#0",
+        "maybe_value%2#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "maybe_value%2#0",
+        "maybe_exists%2#0"
+      ]
+    },
+    "680": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "defined_out": [
+        "price#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "price#0"
+      ]
+    },
+    "681": {
+      "op": "bury 4",
+      "defined_out": [
+        "price#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ]
+    },
+    "683": {
+      "op": "b mintGiftNFT_ternary_merge@8"
+    },
+    "686": {
+      "block": "mintGiftNFT_bool_false@4",
+      "stack_in": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "or_result%0#0"
+      ],
+      "stack_out": [
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "or_result%0#0"
+      ]
+    },
+    "687": {
+      "op": "b mintGiftNFT_bool_merge@5"
+    },
+    "690": {
+      "subroutine": "src/OrangeSubscriptions.algo.ts::OrangeSubscriptionsContract.redeemGiftNFT[routing]",
+      "params": {},
+      "block": "redeemGiftNFT",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "691": {
+      "op": "dup",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0"
+      ]
+    },
+    "692": {
+      "op": "pushbytes \"\"",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0"
+      ]
+    },
+    "694": {
+      "op": "txn GroupIndex",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "tmp%0#0"
+      ]
+    },
+    "696": {
+      "error": "Gift NFT required",
+      "op": "assert // Gift NFT required",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0"
+      ]
+    },
+    "697": {
+      "op": "txn GroupIndex",
+      "defined_out": [
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "tmp%2#0"
+      ]
+    },
+    "699": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "tmp%2#0",
+        "1"
+      ]
+    },
+    "700": {
+      "op": "-",
+      "defined_out": [
+        "giftPayment#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0"
+      ]
+    },
+    "701": {
+      "op": "dupn 2",
+      "defined_out": [
+        "giftPayment#0",
+        "giftPayment#0 (copy)"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "giftPayment#0",
+        "giftPayment#0 (copy)"
+      ]
+    },
+    "703": {
+      "op": "gtxns TypeEnum",
+      "defined_out": [
+        "giftPayment#0",
+        "gtxn_type%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "giftPayment#0",
+        "gtxn_type%0#0"
+      ]
+    },
+    "705": {
+      "op": "intc_3 // axfer",
+      "defined_out": [
+        "axfer",
+        "giftPayment#0",
+        "gtxn_type%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "giftPayment#0",
+        "gtxn_type%0#0",
+        "axfer"
+      ]
+    },
+    "706": {
+      "op": "==",
+      "defined_out": [
+        "giftPayment#0",
+        "gtxn_type_matches%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "giftPayment#0",
+        "gtxn_type_matches%0#0"
+      ]
+    },
+    "707": {
+      "error": "transaction type is axfer",
+      "op": "assert // transaction type is axfer",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "giftPayment#0"
+      ]
+    },
+    "708": {
+      "op": "dup",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "giftPayment#0",
+        "giftPayment#0 (copy)"
+      ]
+    },
+    "709": {
+      "op": "gtxns AssetReceiver",
+      "defined_out": [
+        "giftPayment#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "giftPayment#0",
+        "tmp%3#0"
+      ]
+    },
+    "711": {
+      "op": "global CurrentApplicationAddress",
+      "defined_out": [
+        "giftPayment#0",
+        "tmp%3#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "giftPayment#0",
+        "tmp%3#0",
+        "tmp%4#0"
+      ]
+    },
+    "713": {
+      "op": "==",
+      "defined_out": [
+        "giftPayment#0",
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "giftPayment#0",
+        "tmp%5#0"
+      ]
+    },
+    "714": {
+      "error": "Gift NFT required",
+      "op": "assert // Gift NFT required",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "giftPayment#0"
+      ]
+    },
+    "715": {
+      "op": "gtxns XferAsset",
+      "defined_out": [
+        "giftPayment#0",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0"
+      ]
+    },
+    "717": {
+      "op": "dup",
+      "defined_out": [
+        "giftPayment#0",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "tmp%6#0"
+      ]
+    },
+    "718": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "tmp%6#0",
+        "0"
+      ]
+    },
+    "719": {
+      "op": "bytec_1 // \"giftSubscription30day\"",
+      "defined_out": [
+        "\"giftSubscription30day\"",
+        "0",
+        "giftPayment#0",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "tmp%6#0",
+        "0",
+        "\"giftSubscription30day\""
+      ]
+    },
+    "720": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "giftPayment#0",
+        "maybe_exists%0#0",
+        "maybe_value%0#0",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "tmp%6#0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "721": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "tmp%6#0",
+        "maybe_value%0#0"
+      ]
+    },
+    "722": {
+      "op": "==",
+      "defined_out": [
+        "giftPayment#0",
+        "tmp%6#0",
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "tmp%7#0"
+      ]
+    },
+    "723": {
+      "op": "bnz redeemGiftNFT_bool_true@3",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0"
+      ]
+    },
+    "726": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "0"
+      ]
+    },
+    "727": {
+      "op": "bytec_3 // \"giftSubscriptionYear\"",
+      "defined_out": [
+        "\"giftSubscriptionYear\"",
+        "0",
+        "giftPayment#0",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "0",
+        "\"giftSubscriptionYear\""
+      ]
+    },
+    "728": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "giftPayment#0",
+        "maybe_exists%1#0",
+        "maybe_value%1#0",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "729": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "maybe_value%1#0"
+      ]
+    },
+    "730": {
+      "op": "dig 1",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "maybe_value%1#0",
+        "tmp%6#0"
+      ]
+    },
+    "732": {
+      "op": "==",
+      "defined_out": [
+        "giftPayment#0",
+        "tmp%6#0",
+        "tmp%9#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "tmp%9#0"
+      ]
+    },
+    "733": {
+      "op": "bz redeemGiftNFT_bool_false@4",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0"
+      ]
+    },
+    "736": {
+      "block": "redeemGiftNFT_bool_true@3",
+      "stack_in": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0"
+      ],
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "or_result%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "or_result%0#0"
+      ]
+    },
+    "737": {
+      "error": "Invalid gift subscription NFT",
+      "block": "redeemGiftNFT_bool_merge@5",
+      "stack_in": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "or_result%0#0"
+      ],
+      "op": "assert // Invalid gift subscription NFT",
+      "defined_out": [],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0"
+      ]
+    },
+    "738": {
+      "op": "dig 1",
+      "defined_out": [
+        "giftPayment#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "giftPayment#0"
+      ]
+    },
+    "740": {
+      "op": "gtxns AssetAmount",
+      "defined_out": [
+        "giftPayment#0",
+        "tmp%10#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "tmp%10#0"
+      ]
+    },
+    "742": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "giftPayment#0",
+        "tmp%10#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "tmp%10#0",
+        "1"
+      ]
+    },
+    "743": {
+      "op": "==",
+      "defined_out": [
+        "giftPayment#0",
+        "tmp%11#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "tmp%11#0"
+      ]
+    },
+    "744": {
+      "error": "Invalid gift amount",
+      "op": "assert // Invalid gift amount",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0"
+      ]
+    },
+    "745": {
+      "op": "txn Sender"
+    },
+    "747": {
+      "op": "dup",
+      "defined_out": [
+        "giftPayment#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "sender#0",
+        "sender#0"
+      ]
+    },
+    "748": {
+      "op": "bury 5",
+      "defined_out": [
+        "giftPayment#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "sender#0"
+      ]
+    },
+    "750": {
+      "op": "bytec 7 // \"subs\"",
+      "defined_out": [
+        "\"subs\"",
+        "giftPayment#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "sender#0",
+        "\"subs\""
+      ]
+    },
+    "752": {
+      "op": "swap",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "\"subs\"",
+        "sender#0"
+      ]
+    },
+    "753": {
+      "op": "concat",
+      "defined_out": [
+        "box_prefixed_key%0#0",
+        "giftPayment#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "754": {
+      "op": "dup",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "box_prefixed_key%0#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "755": {
+      "op": "bury 6",
+      "defined_out": [
+        "box_prefixed_key%0#0",
+        "giftPayment#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "757": {
+      "op": "box_len",
+      "defined_out": [
+        "_%0#0",
+        "box_prefixed_key%0#0",
+        "giftPayment#0",
+        "maybe_exists%2#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "_%0#0",
+        "maybe_exists%2#0"
+      ]
+    },
+    "758": {
+      "op": "bury 1",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "maybe_exists%2#0"
+      ]
+    },
+    "760": {
+      "op": "bz redeemGiftNFT_ternary_false@7",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0"
+      ]
+    },
+    "763": {
+      "op": "dig 4",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "765": {
+      "op": "box_get",
+      "defined_out": [
+        "aggregate%box_get%0#0",
+        "aggregate%box_get%1#0",
+        "box_prefixed_key%0#0",
+        "giftPayment#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "aggregate%box_get%0#0",
+        "aggregate%box_get%1#0"
+      ]
+    },
+    "766": {
+      "error": "Box must have value",
+      "op": "assert // Box must have value",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "aggregate%box_get%0#0"
+      ]
+    },
+    "767": {
+      "op": "btoi",
+      "defined_out": [
+        "box_prefixed_key%0#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "existingSubscription#0"
+      ]
+    },
+    "768": {
+      "op": "bury 3",
+      "defined_out": [
+        "box_prefixed_key%0#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0"
+      ]
+    },
+    "770": {
+      "block": "redeemGiftNFT_ternary_merge@8",
+      "stack_in": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0"
+      ],
+      "op": "dig 2",
+      "defined_out": [
+        "existingSubscription#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "existingSubscription#0"
+      ]
+    },
+    "772": {
+      "op": "global LatestTimestamp",
+      "defined_out": [
+        "existingSubscription#0",
+        "tmp%13#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "existingSubscription#0",
+        "tmp%13#0"
+      ]
+    },
+    "774": {
+      "op": "<",
+      "defined_out": [
+        "existingSubscription#0",
+        "tmp%14#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "tmp%14#0"
+      ]
+    },
+    "775": {
+      "op": "bz redeemGiftNFT_ternary_false@10",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0"
+      ]
+    },
+    "778": {
+      "op": "global LatestTimestamp",
+      "defined_out": [
+        "currentEnd#0",
+        "existingSubscription#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "currentEnd#0"
+      ]
+    },
+    "780": {
+      "block": "redeemGiftNFT_ternary_merge@11",
+      "stack_in": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "currentEnd#0"
+      ],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "currentEnd#0",
+        "0"
+      ]
+    },
+    "781": {
+      "op": "bytec_1 // \"giftSubscription30day\"",
+      "defined_out": [
+        "\"giftSubscription30day\"",
+        "0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "currentEnd#0",
+        "0",
+        "\"giftSubscription30day\""
+      ]
+    },
+    "782": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%3#0",
+        "maybe_value%2#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "currentEnd#0",
+        "maybe_value%2#0",
+        "maybe_exists%3#0"
+      ]
+    },
+    "783": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "currentEnd#0",
+        "maybe_value%2#0"
+      ]
+    },
+    "784": {
+      "op": "dig 2",
+      "defined_out": [
+        "maybe_value%2#0",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "currentEnd#0",
+        "maybe_value%2#0",
+        "tmp%6#0"
+      ]
+    },
+    "786": {
+      "op": "==",
+      "defined_out": [
+        "tmp%16#0",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "currentEnd#0",
+        "tmp%16#0"
+      ]
+    },
+    "787": {
+      "op": "intc 5 // 31536000",
+      "defined_out": [
+        "31536000",
+        "tmp%16#0",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "currentEnd#0",
+        "tmp%16#0",
+        "31536000"
+      ]
+    },
+    "789": {
+      "op": "intc 6 // 2592000",
+      "defined_out": [
+        "2592000",
+        "31536000",
+        "tmp%16#0",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "currentEnd#0",
+        "tmp%16#0",
+        "31536000",
+        "2592000"
+      ]
+    },
+    "791": {
+      "op": "uncover 2",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "currentEnd#0",
+        "31536000",
+        "2592000",
+        "tmp%16#0"
+      ]
+    },
+    "793": {
+      "op": "select",
+      "defined_out": [
+        "dur#0",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "currentEnd#0",
+        "dur#0"
+      ]
+    },
+    "794": {
+      "op": "swap",
+      "defined_out": [
+        "currentEnd#0",
+        "dur#0",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "dur#0",
+        "currentEnd#0"
+      ]
+    },
+    "795": {
+      "op": "dig 1",
+      "defined_out": [
+        "currentEnd#0",
+        "dur#0",
+        "dur#0 (copy)",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "dur#0",
+        "currentEnd#0",
+        "dur#0 (copy)"
+      ]
+    },
+    "797": {
+      "op": "+",
+      "defined_out": [
+        "dur#0",
+        "newEnd#0",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "dur#0",
+        "newEnd#0"
+      ]
+    },
+    "798": {
+      "op": "itob",
+      "defined_out": [
+        "dur#0",
+        "encoded_value%0#0",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "dur#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "799": {
+      "op": "dig 6",
+      "defined_out": [
+        "box_prefixed_key%0#0",
+        "dur#0",
+        "encoded_value%0#0",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "dur#0",
+        "encoded_value%0#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "801": {
+      "op": "dig 1",
+      "defined_out": [
+        "box_prefixed_key%0#0",
+        "dur#0",
+        "encoded_value%0#0",
+        "encoded_value%0#0 (copy)",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "dur#0",
+        "encoded_value%0#0",
+        "box_prefixed_key%0#0",
+        "encoded_value%0#0 (copy)"
+      ]
+    },
+    "803": {
+      "op": "box_put",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "dur#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "804": {
+      "op": "swap",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "encoded_value%0#0",
+        "dur#0"
+      ]
+    },
+    "805": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%val_as_bytes%0#0",
+        "box_prefixed_key%0#0",
+        "encoded_value%0#0",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "encoded_value%0#0",
+        "aggregate%val_as_bytes%0#0"
+      ]
+    },
+    "806": {
+      "op": "dig 5",
+      "defined_out": [
+        "aggregate%val_as_bytes%0#0",
+        "box_prefixed_key%0#0",
+        "encoded_value%0#0",
+        "sender#0",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "encoded_value%0#0",
+        "aggregate%val_as_bytes%0#0",
+        "sender#0"
+      ]
+    },
+    "808": {
+      "op": "swap",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "encoded_value%0#0",
+        "sender#0",
+        "aggregate%val_as_bytes%0#0"
+      ]
+    },
+    "809": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%head%1#0",
+        "box_prefixed_key%0#0",
+        "encoded_value%0#0",
+        "sender#0",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "encoded_value%0#0",
+        "aggregate%head%1#0"
+      ]
+    },
+    "810": {
+      "op": "swap",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "aggregate%head%1#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "811": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%head%2#0",
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "aggregate%head%2#0"
+      ]
+    },
+    "812": {
+      "op": "pushbytes 0x06eb60dd // method \"GiftNFTRedeemed(address,uint64,uint64)\"",
+      "defined_out": [
+        "Method(GiftNFTRedeemed(address,uint64,uint64))",
+        "aggregate%head%2#0",
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "aggregate%head%2#0",
+        "Method(GiftNFTRedeemed(address,uint64,uint64))"
+      ]
+    },
+    "818": {
+      "op": "swap",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "Method(GiftNFTRedeemed(address,uint64,uint64))",
+        "aggregate%head%2#0"
+      ]
+    },
+    "819": {
+      "op": "concat",
+      "defined_out": [
+        "box_prefixed_key%0#0",
+        "event%0#0",
+        "sender#0",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "event%0#0"
+      ]
+    },
+    "820": {
+      "op": "log",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0"
+      ]
+    },
+    "821": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "1"
+      ]
+    },
+    "822": {
+      "op": "return",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0"
+      ]
+    },
+    "823": {
+      "block": "redeemGiftNFT_ternary_false@10",
+      "stack_in": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0"
+      ],
+      "op": "dig 2",
+      "defined_out": [
+        "currentEnd#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "currentEnd#0"
+      ]
+    },
+    "825": {
+      "op": "b redeemGiftNFT_ternary_merge@11"
+    },
+    "828": {
+      "block": "redeemGiftNFT_ternary_false@7",
+      "stack_in": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0"
+      ],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "existingSubscription#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "existingSubscription#0"
+      ]
+    },
+    "829": {
+      "op": "bury 3",
+      "defined_out": [
+        "existingSubscription#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0"
+      ]
+    },
+    "831": {
+      "op": "b redeemGiftNFT_ternary_merge@8"
+    },
+    "834": {
+      "block": "redeemGiftNFT_bool_false@4",
+      "stack_in": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0"
+      ],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "or_result%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "giftPayment#0",
+        "tmp%6#0",
+        "or_result%0#0"
+      ]
+    },
+    "835": {
+      "op": "b redeemGiftNFT_bool_merge@5"
+    },
+    "838": {
+      "subroutine": "src/OrangeSubscriptions.algo.ts::OrangeSubscriptionsContract.subscribe[routing]",
+      "params": {},
+      "block": "subscribe",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "839": {
+      "op": "dup",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0"
+      ]
+    },
+    "840": {
+      "op": "pushbytes \"\"",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0"
+      ]
+    },
+    "842": {
+      "op": "dup",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0"
+      ]
+    },
+    "843": {
+      "op": "txna ApplicationArgs 1"
+    },
+    "846": {
+      "op": "dupn 2",
+      "defined_out": [
+        "tmp%0#0",
+        "tmp%0#0 (copy)"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "tmp%0#0",
+        "tmp%0#0 (copy)"
+      ]
+    },
+    "848": {
+      "op": "len",
+      "defined_out": [
+        "len%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "tmp%0#0",
+        "len%0#0"
+      ]
+    },
+    "849": {
+      "op": "intc_2 // 8",
+      "defined_out": [
+        "8",
+        "len%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "tmp%0#0",
+        "len%0#0",
+        "8"
+      ]
+    },
+    "850": {
+      "op": "==",
+      "defined_out": [
+        "eq%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "tmp%0#0",
+        "eq%0#0"
+      ]
+    },
+    "851": {
+      "error": "invalid number of bytes for arc4.uint64",
+      "op": "assert // invalid number of bytes for arc4.uint64",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "tmp%0#0"
+      ]
+    },
+    "852": {
+      "op": "btoi",
+      "defined_out": [
+        "subscriptionType#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0"
+      ]
+    },
+    "853": {
+      "op": "dup",
+      "defined_out": [
+        "subscriptionType#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "subscriptionType#0"
+      ]
+    },
+    "854": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "subscriptionType#0",
+        "0"
+      ]
+    },
+    "855": {
+      "op": "bytec 4 // \"isPaused\"",
+      "defined_out": [
+        "\"isPaused\"",
+        "0",
+        "subscriptionType#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "subscriptionType#0",
+        "0",
+        "\"isPaused\""
+      ]
+    },
+    "857": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0",
+        "subscriptionType#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "subscriptionType#0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "858": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "subscriptionType#0",
+        "maybe_value%0#0"
+      ]
+    },
+    "859": {
+      "op": "!",
+      "defined_out": [
+        "subscriptionType#0",
+        "tmp%0#0",
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "subscriptionType#0",
+        "tmp%0#1"
+      ]
+    },
+    "860": {
+      "error": "Contract is paused",
+      "op": "assert // Contract is paused",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "subscriptionType#0"
+      ]
+    },
+    "861": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "subscriptionType#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "subscriptionType#0",
+        "1"
+      ]
+    },
+    "862": {
+      "op": "==",
+      "defined_out": [
+        "subscriptionType#0",
+        "tmp%0#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ]
+    },
+    "863": {
+      "op": "dup",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "tmp%1#1"
+      ]
+    },
+    "864": {
+      "op": "bnz subscribe_bool_true@3",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ]
+    },
+    "867": {
+      "op": "dig 1",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "subscriptionType#0"
+      ]
+    },
+    "869": {
+      "op": "pushint 2 // 2",
+      "defined_out": [
+        "2",
+        "subscriptionType#0",
+        "tmp%0#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "subscriptionType#0",
+        "2"
+      ]
+    },
+    "871": {
+      "op": "==",
+      "defined_out": [
+        "subscriptionType#0",
+        "tmp%0#0",
+        "tmp%1#1",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "tmp%2#0"
+      ]
+    },
+    "872": {
+      "op": "bz subscribe_bool_false@4",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ]
+    },
+    "875": {
+      "block": "subscribe_bool_true@3",
+      "stack_in": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ],
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "or_result%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "or_result%0#0"
+      ]
+    },
+    "876": {
+      "error": "Invalid subscription type",
+      "block": "subscribe_bool_merge@5",
+      "stack_in": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "or_result%0#0"
+      ],
+      "op": "assert // Invalid subscription type",
+      "defined_out": [],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ]
+    },
+    "877": {
+      "op": "dup",
+      "defined_out": [
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "tmp%1#1"
+      ]
+    },
+    "878": {
+      "op": "bz subscribe_ternary_false@7",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ]
+    },
+    "881": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "0"
+      ]
+    },
+    "882": {
+      "op": "bytec 5 // \"subscriptionPrice30day\"",
+      "defined_out": [
+        "\"subscriptionPrice30day\"",
+        "0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "0",
+        "\"subscriptionPrice30day\""
+      ]
+    },
+    "884": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%1#0",
+        "maybe_value%1#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "885": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "defined_out": [
+        "price#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "price#0"
+      ]
+    },
+    "886": {
+      "op": "bury 4",
+      "defined_out": [
+        "price#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ]
+    },
+    "888": {
+      "block": "subscribe_ternary_merge@8",
+      "stack_in": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ],
+      "op": "txn GroupIndex",
+      "defined_out": [
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "tmp%4#0"
+      ]
+    },
+    "890": {
+      "error": "Payment required",
+      "op": "assert // Payment required",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ]
+    },
+    "891": {
+      "op": "txn GroupIndex",
+      "defined_out": [
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "tmp%6#0"
+      ]
+    },
+    "893": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "tmp%6#0",
+        "1"
+      ]
+    },
+    "894": {
+      "op": "-",
+      "defined_out": [
+        "oraPayment#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0"
+      ]
+    },
+    "895": {
+      "op": "dup",
+      "defined_out": [
+        "oraPayment#0",
+        "oraPayment#0 (copy)"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "oraPayment#0 (copy)"
+      ]
+    },
+    "896": {
+      "op": "gtxns TypeEnum",
+      "defined_out": [
+        "gtxn_type%0#0",
+        "oraPayment#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "gtxn_type%0#0"
+      ]
+    },
+    "898": {
+      "op": "intc_3 // axfer",
+      "defined_out": [
+        "axfer",
+        "gtxn_type%0#0",
+        "oraPayment#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "gtxn_type%0#0",
+        "axfer"
+      ]
+    },
+    "899": {
+      "op": "==",
+      "defined_out": [
+        "gtxn_type_matches%0#0",
+        "oraPayment#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "gtxn_type_matches%0#0"
+      ]
+    },
+    "900": {
+      "error": "transaction type is axfer",
+      "op": "assert // transaction type is axfer",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0"
+      ]
+    },
+    "901": {
+      "op": "dup",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "oraPayment#0 (copy)"
+      ]
+    },
+    "902": {
+      "op": "gtxns AssetReceiver",
+      "defined_out": [
+        "oraPayment#0",
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "tmp%7#0"
+      ]
+    },
+    "904": {
+      "op": "global CurrentApplicationAddress",
+      "defined_out": [
+        "oraPayment#0",
+        "tmp%7#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "tmp%7#0",
+        "tmp%8#0"
+      ]
+    },
+    "906": {
+      "op": "==",
+      "defined_out": [
+        "oraPayment#0",
+        "tmp%9#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "tmp%9#0"
+      ]
+    },
+    "907": {
+      "error": "Payment required",
+      "op": "assert // Payment required",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0"
+      ]
+    },
+    "908": {
+      "op": "dup",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "oraPayment#0 (copy)"
+      ]
+    },
+    "909": {
+      "op": "gtxns XferAsset",
+      "defined_out": [
+        "oraPayment#0",
+        "tmp%10#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "tmp%10#0"
+      ]
+    },
+    "911": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "oraPayment#0",
+        "tmp%10#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "tmp%10#0",
+        "0"
+      ]
+    },
+    "912": {
+      "op": "bytec_2 // \"oraAsaId\"",
+      "defined_out": [
+        "\"oraAsaId\"",
+        "0",
+        "oraPayment#0",
+        "tmp%10#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "tmp%10#0",
+        "0",
+        "\"oraAsaId\""
+      ]
+    },
+    "913": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%3#0",
+        "maybe_value%3#0",
+        "oraPayment#0",
+        "tmp%10#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "tmp%10#0",
+        "maybe_value%3#0",
+        "maybe_exists%3#0"
+      ]
+    },
+    "914": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "tmp%10#0",
+        "maybe_value%3#0"
+      ]
+    },
+    "915": {
+      "op": "==",
+      "defined_out": [
+        "oraPayment#0",
+        "tmp%11#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0",
+        "tmp%11#0"
+      ]
+    },
+    "916": {
+      "error": "Wrong ASA",
+      "op": "assert // Wrong ASA",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "oraPayment#0"
+      ]
+    },
+    "917": {
+      "op": "gtxns AssetAmount",
+      "defined_out": [
+        "tmp%12#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "tmp%12#0"
+      ]
+    },
+    "919": {
+      "op": "dig 4",
+      "defined_out": [
+        "price#0",
+        "tmp%12#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "tmp%12#0",
+        "price#0"
+      ]
+    },
+    "921": {
+      "op": "==",
+      "defined_out": [
+        "price#0",
+        "tmp%13#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "tmp%13#0"
+      ]
+    },
+    "922": {
+      "error": "Incorrect payment amount",
+      "op": "assert // Incorrect payment amount",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ]
+    },
+    "923": {
+      "op": "txn Sender"
+    },
+    "925": {
+      "op": "dup",
+      "defined_out": [
+        "price#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "sender#0",
+        "sender#0"
+      ]
+    },
+    "926": {
+      "op": "bury 7",
+      "defined_out": [
+        "price#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "sender#0"
+      ]
+    },
+    "928": {
+      "op": "bytec 7 // \"subs\"",
+      "defined_out": [
+        "\"subs\"",
+        "price#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "sender#0",
+        "\"subs\""
+      ]
+    },
+    "930": {
+      "op": "swap",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "\"subs\"",
+        "sender#0"
+      ]
+    },
+    "931": {
+      "op": "concat",
+      "defined_out": [
+        "box_prefixed_key%0#0",
+        "price#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "932": {
+      "op": "dup",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "box_prefixed_key%0#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "933": {
+      "op": "bury 8",
+      "defined_out": [
+        "box_prefixed_key%0#0",
+        "price#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "935": {
+      "op": "box_len",
+      "defined_out": [
+        "_%0#0",
+        "box_prefixed_key%0#0",
+        "maybe_exists%4#0",
+        "price#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "_%0#0",
+        "maybe_exists%4#0"
+      ]
+    },
+    "936": {
+      "op": "bury 1",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "maybe_exists%4#0"
+      ]
+    },
+    "938": {
+      "op": "bz subscribe_ternary_false@10",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ]
+    },
+    "941": {
+      "op": "dig 6",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "943": {
+      "op": "box_get",
+      "defined_out": [
+        "aggregate%box_get%0#0",
+        "aggregate%box_get%1#0",
+        "box_prefixed_key%0#0",
+        "price#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "aggregate%box_get%0#0",
+        "aggregate%box_get%1#0"
+      ]
+    },
+    "944": {
+      "error": "Box must have value",
+      "op": "assert // Box must have value",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "aggregate%box_get%0#0"
+      ]
+    },
+    "945": {
+      "op": "btoi",
+      "defined_out": [
+        "box_prefixed_key%0#0",
+        "existingSubscription#0",
+        "price#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "existingSubscription#0"
+      ]
+    },
+    "946": {
+      "op": "bury 5",
+      "defined_out": [
+        "box_prefixed_key%0#0",
+        "existingSubscription#0",
+        "price#0",
+        "sender#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ]
+    },
+    "948": {
+      "block": "subscribe_ternary_merge@11",
+      "stack_in": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ],
+      "op": "dig 4",
+      "defined_out": [
+        "existingSubscription#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "existingSubscription#0"
+      ]
+    },
+    "950": {
+      "op": "global LatestTimestamp",
+      "defined_out": [
+        "existingSubscription#0",
+        "tmp%15#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "existingSubscription#0",
+        "tmp%15#0"
+      ]
+    },
+    "952": {
+      "op": "<",
+      "defined_out": [
+        "existingSubscription#0",
+        "tmp%16#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "tmp%16#0"
+      ]
+    },
+    "953": {
+      "op": "bz subscribe_ternary_false@13",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ]
+    },
+    "956": {
+      "op": "global LatestTimestamp",
+      "defined_out": [
+        "currentEnd#0",
+        "existingSubscription#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "currentEnd#0"
+      ]
+    },
+    "958": {
+      "block": "subscribe_ternary_merge@14",
+      "stack_in": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "currentEnd#0"
+      ],
+      "op": "intc 5 // 31536000",
+      "defined_out": [
+        "31536000"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "currentEnd#0",
+        "31536000"
+      ]
+    },
+    "960": {
+      "op": "intc 6 // 2592000",
+      "defined_out": [
+        "2592000",
+        "31536000"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "currentEnd#0",
+        "31536000",
+        "2592000"
+      ]
+    },
+    "962": {
+      "op": "dig 3",
+      "defined_out": [
+        "2592000",
+        "31536000",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "currentEnd#0",
+        "31536000",
+        "2592000",
+        "tmp%1#1"
+      ]
+    },
+    "964": {
+      "op": "select",
+      "defined_out": [
+        "currentEnd#0",
+        "dur#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "currentEnd#0",
+        "dur#0"
+      ]
+    },
+    "965": {
+      "op": "+",
+      "defined_out": [
+        "newEnd#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "newEnd#0"
+      ]
+    },
+    "966": {
+      "op": "itob",
+      "defined_out": [
+        "encoded_value%0#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "encoded_value%0#0"
+      ]
+    },
+    "967": {
+      "op": "dig 7",
+      "defined_out": [
+        "box_prefixed_key%0#0",
+        "encoded_value%0#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "encoded_value%0#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "969": {
+      "op": "dig 1",
+      "defined_out": [
+        "box_prefixed_key%0#0",
+        "encoded_value%0#0",
+        "encoded_value%0#0 (copy)",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "encoded_value%0#0",
+        "box_prefixed_key%0#0",
+        "encoded_value%0#0 (copy)"
+      ]
+    },
+    "971": {
+      "op": "box_put",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "encoded_value%0#0"
+      ]
+    },
+    "972": {
+      "op": "dig 4",
+      "defined_out": [
+        "box_prefixed_key%0#0",
+        "encoded_value%0#0",
+        "price#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "encoded_value%0#0",
+        "price#0"
+      ]
+    },
+    "974": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%val_as_bytes%0#0",
+        "box_prefixed_key%0#0",
+        "encoded_value%0#0",
+        "price#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "encoded_value%0#0",
+        "aggregate%val_as_bytes%0#0"
+      ]
+    },
+    "975": {
+      "op": "dig 7",
+      "defined_out": [
+        "aggregate%val_as_bytes%0#0",
+        "box_prefixed_key%0#0",
+        "encoded_value%0#0",
+        "price#0",
+        "sender#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "encoded_value%0#0",
+        "aggregate%val_as_bytes%0#0",
+        "sender#0"
+      ]
+    },
+    "977": {
+      "op": "dig 5",
+      "defined_out": [
+        "aggregate%val_as_bytes%0#0",
+        "box_prefixed_key%0#0",
+        "encoded_value%0#0",
+        "price#0",
+        "sender#0",
+        "tmp%0#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "encoded_value%0#0",
+        "aggregate%val_as_bytes%0#0",
+        "sender#0",
+        "tmp%0#0"
+      ]
+    },
+    "979": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%head%1#0",
+        "aggregate%val_as_bytes%0#0",
+        "box_prefixed_key%0#0",
+        "encoded_value%0#0",
+        "price#0",
+        "sender#0",
+        "tmp%0#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "encoded_value%0#0",
+        "aggregate%val_as_bytes%0#0",
+        "aggregate%head%1#0"
+      ]
+    },
+    "980": {
+      "op": "swap",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "encoded_value%0#0",
+        "aggregate%head%1#0",
+        "aggregate%val_as_bytes%0#0"
+      ]
+    },
+    "981": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%head%2#0",
+        "box_prefixed_key%0#0",
+        "encoded_value%0#0",
+        "price#0",
+        "sender#0",
+        "tmp%0#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "encoded_value%0#0",
+        "aggregate%head%2#0"
+      ]
+    },
+    "982": {
+      "op": "swap",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "aggregate%head%2#0",
+        "encoded_value%0#0"
+      ]
+    },
+    "983": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%head%3#0",
+        "box_prefixed_key%0#0",
+        "price#0",
+        "sender#0",
+        "tmp%0#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "aggregate%head%3#0"
+      ]
+    },
+    "984": {
+      "op": "pushbytes 0x5506014f // method \"Subscribed(address,uint64,uint64,uint64)\"",
+      "defined_out": [
+        "Method(Subscribed(address,uint64,uint64,uint64))",
+        "aggregate%head%3#0",
+        "box_prefixed_key%0#0",
+        "price#0",
+        "sender#0",
+        "tmp%0#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "aggregate%head%3#0",
+        "Method(Subscribed(address,uint64,uint64,uint64))"
+      ]
+    },
+    "990": {
+      "op": "swap",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "Method(Subscribed(address,uint64,uint64,uint64))",
+        "aggregate%head%3#0"
+      ]
+    },
+    "991": {
+      "op": "concat",
+      "defined_out": [
+        "box_prefixed_key%0#0",
+        "event%0#0",
+        "price#0",
+        "sender#0",
+        "tmp%0#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "event%0#0"
+      ]
+    },
+    "992": {
+      "op": "log",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ]
+    },
+    "993": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "box_prefixed_key%0#0",
+        "price#0",
+        "sender#0",
+        "tmp%0#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "1"
+      ]
+    },
+    "994": {
+      "op": "return",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ]
+    },
+    "995": {
+      "block": "subscribe_ternary_false@13",
+      "stack_in": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ],
+      "op": "dig 4",
+      "defined_out": [
+        "currentEnd#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "currentEnd#0"
+      ]
+    },
+    "997": {
+      "op": "b subscribe_ternary_merge@14"
+    },
+    "1000": {
+      "block": "subscribe_ternary_false@10",
+      "stack_in": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "existingSubscription#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "existingSubscription#0"
+      ]
+    },
+    "1001": {
+      "op": "bury 5",
+      "defined_out": [
+        "existingSubscription#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ]
+    },
+    "1003": {
+      "op": "b subscribe_ternary_merge@11"
+    },
+    "1006": {
+      "block": "subscribe_ternary_false@7",
+      "stack_in": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "0"
+      ]
+    },
+    "1007": {
+      "op": "bytec 6 // \"subscriptionPriceYear\"",
+      "defined_out": [
+        "\"subscriptionPriceYear\"",
+        "0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "0",
+        "\"subscriptionPriceYear\""
+      ]
+    },
+    "1009": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%2#0",
+        "maybe_value%2#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "maybe_value%2#0",
+        "maybe_exists%2#0"
+      ]
+    },
+    "1010": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "defined_out": [
+        "price#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "price#0"
+      ]
+    },
+    "1011": {
+      "op": "bury 4",
+      "defined_out": [
+        "price#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ]
+    },
+    "1013": {
+      "op": "b subscribe_ternary_merge@8"
+    },
+    "1016": {
+      "block": "subscribe_bool_false@4",
+      "stack_in": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1"
+      ],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "or_result%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "sender#0",
+        "existingSubscription#0",
+        "price#0",
+        "tmp%0#0",
+        "subscriptionType#0",
+        "tmp%1#1",
+        "or_result%0#0"
+      ]
+    },
+    "1017": {
+      "op": "b subscribe_bool_merge@5"
+    },
+    "1020": {
+      "subroutine": "src/OrangeSubscriptions.algo.ts::OrangeSubscriptionsContract.updatePrices[routing]",
+      "params": {},
+      "block": "updatePrices",
+      "stack_in": [],
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "1023": {
+      "op": "dup",
+      "defined_out": [
+        "tmp%0#0",
+        "tmp%0#0 (copy)"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%0#0 (copy)"
+      ]
+    },
+    "1024": {
+      "op": "len",
+      "defined_out": [
+        "len%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "len%0#0"
+      ]
+    },
+    "1025": {
+      "op": "intc_2 // 8",
+      "defined_out": [
+        "8",
+        "len%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "len%0#0",
+        "8"
+      ]
+    },
+    "1026": {
+      "op": "==",
+      "defined_out": [
+        "eq%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "eq%0#0"
+      ]
+    },
+    "1027": {
+      "error": "invalid number of bytes for arc4.uint64",
+      "op": "assert // invalid number of bytes for arc4.uint64",
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "1028": {
+      "op": "btoi",
+      "defined_out": [
+        "price30day#0"
+      ],
+      "stack_out": [
+        "price30day#0"
+      ]
+    },
+    "1029": {
+      "op": "txna ApplicationArgs 2",
+      "defined_out": [
+        "price30day#0",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "price30day#0",
+        "tmp%2#0"
+      ]
+    },
+    "1032": {
+      "op": "dup",
+      "defined_out": [
+        "price30day#0",
+        "tmp%2#0",
+        "tmp%2#0 (copy)"
+      ],
+      "stack_out": [
+        "price30day#0",
+        "tmp%2#0",
+        "tmp%2#0 (copy)"
+      ]
+    },
+    "1033": {
+      "op": "len",
+      "defined_out": [
+        "len%1#0",
+        "price30day#0",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "price30day#0",
+        "tmp%2#0",
+        "len%1#0"
+      ]
+    },
+    "1034": {
+      "op": "intc_2 // 8",
+      "stack_out": [
+        "price30day#0",
+        "tmp%2#0",
+        "len%1#0",
+        "8"
+      ]
+    },
+    "1035": {
+      "op": "==",
+      "defined_out": [
+        "eq%1#0",
+        "price30day#0",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "price30day#0",
+        "tmp%2#0",
+        "eq%1#0"
+      ]
+    },
+    "1036": {
+      "error": "invalid number of bytes for arc4.uint64",
+      "op": "assert // invalid number of bytes for arc4.uint64",
+      "stack_out": [
+        "price30day#0",
+        "tmp%2#0"
+      ]
+    },
+    "1037": {
+      "op": "btoi",
+      "defined_out": [
+        "price30day#0",
+        "priceYear#0"
+      ],
+      "stack_out": [
+        "price30day#0",
+        "priceYear#0"
+      ]
+    },
+    "1038": {
+      "op": "txn Sender",
+      "defined_out": [
+        "price30day#0",
+        "priceYear#0",
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "price30day#0",
+        "priceYear#0",
+        "tmp%0#1"
+      ]
+    },
+    "1040": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "price30day#0",
+        "priceYear#0",
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "price30day#0",
+        "priceYear#0",
+        "tmp%0#1",
+        "0"
+      ]
+    },
+    "1041": {
+      "op": "bytec_0 // \"admin\"",
+      "defined_out": [
+        "\"admin\"",
+        "0",
+        "price30day#0",
+        "priceYear#0",
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "price30day#0",
+        "priceYear#0",
+        "tmp%0#1",
+        "0",
+        "\"admin\""
+      ]
+    },
+    "1042": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0",
+        "price30day#0",
+        "priceYear#0",
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "price30day#0",
+        "priceYear#0",
+        "tmp%0#1",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "1043": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "price30day#0",
+        "priceYear#0",
+        "tmp%0#1",
+        "maybe_value%0#0"
+      ]
+    },
+    "1044": {
+      "op": "==",
+      "defined_out": [
+        "price30day#0",
+        "priceYear#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "price30day#0",
+        "priceYear#0",
+        "tmp%1#1"
+      ]
+    },
+    "1045": {
+      "error": "Admin only",
+      "op": "assert // Admin only",
+      "stack_out": [
+        "price30day#0",
+        "priceYear#0"
+      ]
+    },
+    "1046": {
+      "op": "dig 1",
+      "defined_out": [
+        "price30day#0",
+        "price30day#0 (copy)",
+        "priceYear#0"
+      ],
+      "stack_out": [
+        "price30day#0",
+        "priceYear#0",
+        "price30day#0 (copy)"
+      ]
+    },
+    "1048": {
+      "error": "Price must be positive",
+      "op": "assert // Price must be positive",
+      "stack_out": [
+        "price30day#0",
+        "priceYear#0"
+      ]
+    },
+    "1049": {
+      "op": "dup",
+      "defined_out": [
+        "price30day#0",
+        "priceYear#0",
+        "priceYear#0 (copy)"
+      ],
+      "stack_out": [
+        "price30day#0",
+        "priceYear#0",
+        "priceYear#0 (copy)"
+      ]
+    },
+    "1050": {
+      "error": "Price must be positive",
+      "op": "assert // Price must be positive",
+      "stack_out": [
+        "price30day#0",
+        "priceYear#0"
+      ]
+    },
+    "1051": {
+      "op": "bytec 5 // \"subscriptionPrice30day\"",
+      "defined_out": [
+        "\"subscriptionPrice30day\"",
+        "price30day#0",
+        "priceYear#0"
+      ],
+      "stack_out": [
+        "price30day#0",
+        "priceYear#0",
+        "\"subscriptionPrice30day\""
+      ]
+    },
+    "1053": {
+      "op": "uncover 2",
+      "stack_out": [
+        "priceYear#0",
+        "\"subscriptionPrice30day\"",
+        "price30day#0"
+      ]
+    },
+    "1055": {
+      "op": "app_global_put",
+      "stack_out": [
+        "priceYear#0"
+      ]
+    },
+    "1056": {
+      "op": "bytec 6 // \"subscriptionPriceYear\"",
+      "defined_out": [
+        "\"subscriptionPriceYear\"",
+        "priceYear#0"
+      ],
+      "stack_out": [
+        "priceYear#0",
+        "\"subscriptionPriceYear\""
+      ]
+    },
+    "1058": {
+      "op": "swap",
+      "stack_out": [
+        "\"subscriptionPriceYear\"",
+        "priceYear#0"
+      ]
+    },
+    "1059": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "1060": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1"
+      ],
+      "stack_out": [
+        "1"
+      ]
+    },
+    "1061": {
+      "op": "return",
+      "stack_out": []
+    },
+    "1062": {
+      "subroutine": "src/OrangeSubscriptions.algo.ts::OrangeSubscriptionsContract.setPauseState[routing]",
+      "params": {},
+      "block": "setPauseState",
+      "stack_in": [],
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "1065": {
+      "op": "dup",
+      "defined_out": [
+        "tmp%0#0",
+        "tmp%0#0 (copy)"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%0#0 (copy)"
+      ]
+    },
+    "1066": {
+      "op": "len",
+      "defined_out": [
+        "len%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "len%0#0"
+      ]
+    },
+    "1067": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "len%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "len%0#0",
+        "1"
+      ]
+    },
+    "1068": {
+      "op": "==",
+      "defined_out": [
+        "eq%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "eq%0#0"
+      ]
+    },
+    "1069": {
+      "error": "invalid number of bytes for arc4.bool",
+      "op": "assert // invalid number of bytes for arc4.bool",
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "1070": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "0"
+      ]
+    },
+    "1071": {
+      "op": "getbit",
+      "defined_out": [
+        "paused#0"
+      ],
+      "stack_out": [
+        "paused#0"
+      ]
+    },
+    "1072": {
+      "op": "txn Sender",
+      "defined_out": [
+        "paused#0",
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "paused#0",
+        "tmp%0#1"
+      ]
+    },
+    "1074": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "paused#0",
+        "tmp%0#1",
+        "0"
+      ]
+    },
+    "1075": {
+      "op": "bytec_0 // \"admin\"",
+      "defined_out": [
+        "\"admin\"",
+        "0",
+        "paused#0",
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "paused#0",
+        "tmp%0#1",
+        "0",
+        "\"admin\""
+      ]
+    },
+    "1076": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0",
+        "paused#0",
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "paused#0",
+        "tmp%0#1",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "1077": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "paused#0",
+        "tmp%0#1",
+        "maybe_value%0#0"
+      ]
+    },
+    "1078": {
+      "op": "==",
+      "defined_out": [
+        "paused#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "paused#0",
+        "tmp%1#1"
+      ]
+    },
+    "1079": {
+      "error": "Admin only",
+      "op": "assert // Admin only",
+      "stack_out": [
+        "paused#0"
+      ]
+    },
+    "1080": {
+      "op": "bytec 4 // \"isPaused\"",
+      "defined_out": [
+        "\"isPaused\"",
+        "paused#0"
+      ],
+      "stack_out": [
+        "paused#0",
+        "\"isPaused\""
+      ]
+    },
+    "1082": {
+      "op": "swap",
+      "stack_out": [
+        "\"isPaused\"",
+        "paused#0"
+      ]
+    },
+    "1083": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "1084": {
+      "op": "intc_1 // 1",
+      "stack_out": [
+        "1"
+      ]
+    },
+    "1085": {
+      "op": "return",
+      "stack_out": []
+    },
+    "1086": {
+      "subroutine": "src/OrangeSubscriptions.algo.ts::OrangeSubscriptionsContract.updateAdmin[routing]",
+      "params": {},
+      "block": "updateAdmin",
+      "stack_in": [],
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "newAdmin#0"
+      ],
+      "stack_out": [
+        "newAdmin#0"
+      ]
+    },
+    "1089": {
+      "op": "dup",
+      "defined_out": [
+        "newAdmin#0",
+        "newAdmin#0 (copy)"
+      ],
+      "stack_out": [
+        "newAdmin#0",
+        "newAdmin#0 (copy)"
+      ]
+    },
+    "1090": {
+      "op": "len",
+      "defined_out": [
+        "len%0#0",
+        "newAdmin#0"
+      ],
+      "stack_out": [
+        "newAdmin#0",
+        "len%0#0"
+      ]
+    },
+    "1091": {
+      "op": "pushint 32 // 32",
+      "defined_out": [
+        "32",
+        "len%0#0",
+        "newAdmin#0"
+      ],
+      "stack_out": [
+        "newAdmin#0",
+        "len%0#0",
+        "32"
+      ]
+    },
+    "1093": {
+      "op": "==",
+      "defined_out": [
+        "eq%0#0",
+        "newAdmin#0"
+      ],
+      "stack_out": [
+        "newAdmin#0",
+        "eq%0#0"
+      ]
+    },
+    "1094": {
+      "error": "invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
+      "op": "assert // invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
+      "stack_out": [
+        "newAdmin#0"
+      ]
+    },
+    "1095": {
+      "op": "txn Sender",
+      "defined_out": [
+        "newAdmin#0",
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "newAdmin#0",
+        "tmp%0#1"
+      ]
+    },
+    "1097": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "newAdmin#0",
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "newAdmin#0",
+        "tmp%0#1",
+        "0"
+      ]
+    },
+    "1098": {
+      "op": "bytec_0 // \"admin\"",
+      "defined_out": [
+        "\"admin\"",
+        "0",
+        "newAdmin#0",
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "newAdmin#0",
+        "tmp%0#1",
+        "0",
+        "\"admin\""
+      ]
+    },
+    "1099": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0",
+        "newAdmin#0",
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "newAdmin#0",
+        "tmp%0#1",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "1100": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "newAdmin#0",
+        "tmp%0#1",
+        "maybe_value%0#0"
+      ]
+    },
+    "1101": {
+      "op": "==",
+      "defined_out": [
+        "newAdmin#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "newAdmin#0",
+        "tmp%1#1"
+      ]
+    },
+    "1102": {
+      "error": "Admin only",
+      "op": "assert // Admin only",
+      "stack_out": [
+        "newAdmin#0"
+      ]
+    },
+    "1103": {
+      "op": "bytec_0 // \"admin\"",
+      "stack_out": [
+        "newAdmin#0",
+        "\"admin\""
+      ]
+    },
+    "1104": {
+      "op": "swap",
+      "stack_out": [
+        "\"admin\"",
+        "newAdmin#0"
+      ]
+    },
+    "1105": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "1106": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1"
+      ],
+      "stack_out": [
+        "1"
+      ]
+    },
+    "1107": {
+      "op": "return",
+      "stack_out": []
+    },
+    "1108": {
+      "subroutine": "src/OrangeSubscriptions.algo.ts::OrangeSubscriptionsContract.getSubscription[routing]",
+      "params": {},
+      "block": "getSubscription",
+      "stack_in": [],
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "user#0"
+      ],
+      "stack_out": [
+        "user#0"
+      ]
+    },
+    "1111": {
+      "op": "dup",
+      "defined_out": [
+        "user#0",
+        "user#0 (copy)"
+      ],
+      "stack_out": [
+        "user#0",
+        "user#0 (copy)"
+      ]
+    },
+    "1112": {
+      "op": "len",
+      "defined_out": [
+        "len%0#0",
+        "user#0"
+      ],
+      "stack_out": [
+        "user#0",
+        "len%0#0"
+      ]
+    },
+    "1113": {
+      "op": "pushint 32 // 32",
+      "defined_out": [
+        "32",
+        "len%0#0",
+        "user#0"
+      ],
+      "stack_out": [
+        "user#0",
+        "len%0#0",
+        "32"
+      ]
+    },
+    "1115": {
+      "op": "==",
+      "defined_out": [
+        "eq%0#0",
+        "user#0"
+      ],
+      "stack_out": [
+        "user#0",
+        "eq%0#0"
+      ]
+    },
+    "1116": {
+      "error": "invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
+      "op": "assert // invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
+      "stack_out": [
+        "user#0"
+      ]
+    },
+    "1117": {
+      "op": "bytec 7 // \"subs\"",
+      "defined_out": [
+        "\"subs\"",
+        "user#0"
+      ],
+      "stack_out": [
+        "user#0",
+        "\"subs\""
+      ]
+    },
+    "1119": {
+      "op": "swap",
+      "stack_out": [
+        "\"subs\"",
+        "user#0"
+      ]
+    },
+    "1120": {
+      "op": "concat",
+      "defined_out": [
+        "box_prefixed_key%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "1121": {
+      "op": "dup",
+      "defined_out": [
+        "box_prefixed_key%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "1122": {
+      "op": "box_len",
+      "defined_out": [
+        "_%0#0",
+        "box_prefixed_key%0#0",
+        "maybe_exists%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "_%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "1123": {
+      "op": "bury 1",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "1125": {
+      "op": "bz getSubscription_ternary_false@3",
+      "stack_out": [
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "1128": {
+      "op": "dup",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "1129": {
+      "op": "box_get",
+      "defined_out": [
+        "aggregate%box_get%0#0",
+        "aggregate%box_get%1#0",
+        "box_prefixed_key%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "aggregate%box_get%0#0",
+        "aggregate%box_get%1#0"
+      ]
+    },
+    "1130": {
+      "error": "Box must have value",
+      "op": "assert // Box must have value",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "aggregate%box_get%0#0"
+      ]
+    },
+    "1131": {
+      "op": "btoi",
+      "defined_out": [
+        "box_prefixed_key%0#0",
+        "ternary_result%0#1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "ternary_result%0#1"
+      ]
+    },
+    "1132": {
+      "block": "getSubscription_ternary_merge@4",
+      "stack_in": [
+        "box_prefixed_key%0#0",
+        "ternary_result%0#1"
+      ],
+      "op": "itob",
+      "defined_out": [
+        "aggregate%val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "aggregate%val_as_bytes%0#0"
+      ]
+    },
+    "1133": {
+      "op": "bytec 8 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "aggregate%val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "aggregate%val_as_bytes%0#0",
+        "0x151f7c75"
+      ]
+    },
+    "1135": {
+      "op": "swap",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "0x151f7c75",
+        "aggregate%val_as_bytes%0#0"
+      ]
+    },
+    "1136": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "tmp%4#0"
+      ]
+    },
+    "1137": {
+      "op": "log",
+      "stack_out": [
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "1138": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "1"
+      ]
+    },
+    "1139": {
+      "op": "return",
+      "stack_out": [
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "1140": {
+      "block": "getSubscription_ternary_false@3",
+      "stack_in": [
+        "box_prefixed_key%0#0"
+      ],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "ternary_result%0#1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "ternary_result%0#1"
+      ]
+    },
+    "1141": {
+      "op": "b getSubscription_ternary_merge@4"
+    },
+    "1144": {
+      "subroutine": "src/OrangeSubscriptions.algo.ts::OrangeSubscriptionsContract.hasActiveSubscription[routing]",
+      "params": {},
+      "block": "hasActiveSubscription",
+      "stack_in": [],
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "user#0"
+      ],
+      "stack_out": [
+        "user#0"
+      ]
+    },
+    "1147": {
+      "op": "dup",
+      "defined_out": [
+        "user#0",
+        "user#0 (copy)"
+      ],
+      "stack_out": [
+        "user#0",
+        "user#0 (copy)"
+      ]
+    },
+    "1148": {
+      "op": "len",
+      "defined_out": [
+        "len%0#0",
+        "user#0"
+      ],
+      "stack_out": [
+        "user#0",
+        "len%0#0"
+      ]
+    },
+    "1149": {
+      "op": "pushint 32 // 32",
+      "defined_out": [
+        "32",
+        "len%0#0",
+        "user#0"
+      ],
+      "stack_out": [
+        "user#0",
+        "len%0#0",
+        "32"
+      ]
+    },
+    "1151": {
+      "op": "==",
+      "defined_out": [
+        "eq%0#0",
+        "user#0"
+      ],
+      "stack_out": [
+        "user#0",
+        "eq%0#0"
+      ]
+    },
+    "1152": {
+      "error": "invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
+      "op": "assert // invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
+      "stack_out": [
+        "user#0"
+      ]
+    },
+    "1153": {
+      "op": "bytec 7 // \"subs\"",
+      "defined_out": [
+        "\"subs\"",
+        "user#0"
+      ],
+      "stack_out": [
+        "user#0",
+        "\"subs\""
+      ]
+    },
+    "1155": {
+      "op": "swap",
+      "stack_out": [
+        "\"subs\"",
+        "user#0"
+      ]
+    },
+    "1156": {
+      "op": "concat",
+      "defined_out": [
+        "box_prefixed_key%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "1157": {
+      "op": "dup",
+      "defined_out": [
+        "box_prefixed_key%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "1158": {
+      "op": "box_len",
+      "defined_out": [
+        "_%0#0",
+        "box_prefixed_key%0#0",
+        "maybe_exists%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "_%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "1159": {
+      "op": "bury 1",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "1161": {
+      "op": "bnz hasActiveSubscription_after_if_else@3",
+      "stack_out": [
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "1164": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "box_prefixed_key%0#0",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "tmp%2#0"
+      ]
+    },
+    "1165": {
+      "block": "hasActiveSubscription_after_inlined_src/OrangeSubscriptions.algo.ts::OrangeSubscriptionsContract.hasActiveSubscription@4",
+      "stack_in": [
+        "box_prefixed_key%0#0",
+        "tmp%2#0"
+      ],
+      "op": "pushbytes 0x00",
+      "defined_out": [
+        "0x00"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "tmp%2#0",
+        "0x00"
+      ]
+    },
+    "1168": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "0x00"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "tmp%2#0",
+        "0x00",
+        "0"
+      ]
+    },
+    "1169": {
+      "op": "uncover 2",
+      "defined_out": [
+        "0",
+        "0x00",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "0x00",
+        "0",
+        "tmp%2#0"
+      ]
+    },
+    "1171": {
+      "op": "setbit",
+      "defined_out": [
+        "aggregate%encoded_bool%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "aggregate%encoded_bool%0#0"
+      ]
+    },
+    "1172": {
+      "op": "bytec 8 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "aggregate%encoded_bool%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "aggregate%encoded_bool%0#0",
+        "0x151f7c75"
+      ]
+    },
+    "1174": {
+      "op": "swap",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "0x151f7c75",
+        "aggregate%encoded_bool%0#0"
+      ]
+    },
+    "1175": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "tmp%4#0"
+      ]
+    },
+    "1176": {
+      "op": "log",
+      "stack_out": [
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "1177": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "1"
+      ]
+    },
+    "1178": {
+      "op": "return",
+      "stack_out": [
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "1179": {
+      "block": "hasActiveSubscription_after_if_else@3",
+      "stack_in": [
+        "box_prefixed_key%0#0"
+      ],
+      "op": "dup",
+      "defined_out": [
+        "box_prefixed_key%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "1180": {
+      "op": "box_get",
+      "defined_out": [
+        "aggregate%box_get%0#0",
+        "aggregate%box_get%1#0",
+        "box_prefixed_key%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "aggregate%box_get%0#0",
+        "aggregate%box_get%1#0"
+      ]
+    },
+    "1181": {
+      "error": "Box must have value",
+      "op": "assert // Box must have value",
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "aggregate%box_get%0#0"
+      ]
+    },
+    "1182": {
+      "op": "btoi",
+      "defined_out": [
+        "box_prefixed_key%0#0",
+        "maybe_value_converted%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "maybe_value_converted%0#0"
+      ]
+    },
+    "1183": {
+      "op": "global LatestTimestamp",
+      "defined_out": [
+        "box_prefixed_key%0#0",
+        "maybe_value_converted%0#0",
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "maybe_value_converted%0#0",
+        "tmp%0#1"
+      ]
+    },
+    "1185": {
+      "op": ">",
+      "defined_out": [
+        "box_prefixed_key%0#0",
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0",
+        "tmp%2#0"
+      ]
+    },
+    "1186": {
+      "op": "b hasActiveSubscription_after_inlined_src/OrangeSubscriptions.algo.ts::OrangeSubscriptionsContract.hasActiveSubscription@4"
+    },
+    "1189": {
+      "subroutine": "src/OrangeSubscriptions.algo.ts::OrangeSubscriptionsContract.getLatestTimestamp[routing]",
+      "params": {},
+      "block": "getLatestTimestamp",
+      "stack_in": [],
+      "op": "global LatestTimestamp",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "1191": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "aggregate%val_as_bytes%0#0"
+      ]
+    },
+    "1192": {
+      "op": "bytec 8 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "aggregate%val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "aggregate%val_as_bytes%0#0",
+        "0x151f7c75"
+      ]
+    },
+    "1194": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "aggregate%val_as_bytes%0#0"
+      ]
+    },
+    "1195": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "tmp%2#0"
+      ]
+    },
+    "1196": {
+      "op": "log",
+      "stack_out": []
+    },
+    "1197": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1"
+      ],
+      "stack_out": [
+        "1"
+      ]
+    },
+    "1198": {
+      "op": "return",
+      "stack_out": []
+    }
+  }
+}

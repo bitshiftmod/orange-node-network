@@ -6,11 +6,9 @@ import { useOrangeAccount } from "orange-react";
 import { useState } from "react";
 
 const Account = () => {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const { activeAccount, providers, signer } = useWallet();
+  const { activeAccount, providers } = useWallet();
 
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [sessionKey, setSessionKey] = useState<string|undefined>();
+  const [sessionKey] = useState<string|undefined>();
 
   console.log('sessionKey', sessionKey);
 

@@ -1,4 +1,5 @@
 import "./App.css";
+import { useMemo } from "react";
 
 import {
   WalletProvider,
@@ -7,8 +8,8 @@ import {
 } from "@txnlab/use-wallet";
 import { DeflyWalletConnect } from "@blockshake/defly-connect";
 import { PeraWalletConnect } from "@perawallet/connect";
-// import { DaffiWalletConnect } from '@daffiwallet/connect'
-// import LuteConnect from 'lute-connect'
+import { AlgorandClient } from "@algorandfoundation/algokit-utils";
+import { OrangeProvider } from "orange-react";
 import Account from "./Account";
 
 // const mainnetNodeConfig = {
@@ -23,30 +24,40 @@ const testnetNodeConfig = {
   network: "testnet",
 };
 
+// Orange Subscriptions contract app ID on testnet
+// TODO: Update this with the actual deployed app ID
+const ORANGE_SUBSCRIPTIONS_APP_ID = BigInt(0);
+
 function App() {
   const providers = useInitializeProviders({
     providers: [
       { id: PROVIDER_ID.DEFLY, clientStatic: DeflyWalletConnect },
       { id: PROVIDER_ID.PERA, clientStatic: PeraWalletConnect },
-      // { id: PROVIDER_ID.DAFFI, clientStatic: DaffiWalletConnect },
-      // { id: PROVIDER_ID.EXODUS },
-      // {
-      //   id: PROVIDER_ID.LUTE,
-      //   clientStatic: LuteConnect,
-      //   clientOptions: { siteName: 'YourSiteName' }
-      // },
-      // { id: PROVIDER_ID.KIBISIS }
     ],
     nodeConfig: testnetNodeConfig,
   });
 
+  // Create AlgorandClient for testnet
+  const algorandClient = useMemo(() => {
+    return AlgorandClient.fromConfig({
+      algodConfig: {
+        server: testnetNodeConfig.nodeServer,
+        port: testnetNodeConfig.nodePort,
+      },
+    });
+  }, []);
+
   return (
     <WalletProvider value={providers}>
-      <div className="navbar bg-base-100">
-      <a className="btn btn-ghost text-xl">Orange Accounts</a>
-
-      </div>
-      <Account />
+      <OrangeProvider
+        algorandClient={algorandClient}
+        subscriptionsAppId={ORANGE_SUBSCRIPTIONS_APP_ID}
+      >
+        <div className="navbar bg-base-100">
+          <a className="btn btn-ghost text-xl">Orange Accounts</a>
+        </div>
+        <Account />
+      </OrangeProvider>
     </WalletProvider>
   );
 }

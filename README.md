@@ -1,81 +1,187 @@
-# Turborepo starter
+# Orange Node Network
 
-This is an official starter Turborepo.
+Decentralized Algorand Node Network with Gateway API, Real-time WebSocket, and Zero-Trust Security.
 
-## Using this example
+## 🚀 Quick Start
 
-Run the following command:
+```bash
+# Install dependencies
+npm install
 
-```sh
-npx create-turbo@latest
+# Start all services in development
+npm run dev
+
+# Build for production
+npm run build
+
+# Run all tests
+npm test
 ```
 
-## What's inside?
+## 📊 Project Status
 
-This Turborepo includes the following packages/apps:
+| Component | Tests | Status |
+|-----------|-------|--------|
+| smart-contracts | 119 | ✅ Passing |
+| orange-gateway | 131 | ✅ Passing |
+| orange-node | 76 | ✅ Passing |
 
-### Apps and Packages
-
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
-
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
-
-### Build
-
-To build all apps and packages, run the following command:
+## 📁 Project Structure
 
 ```
-cd my-turborepo
-pnpm build
+orange-node-network/
+├── apps/                   # Application services
+│   ├── orange-gateway/     # API Gateway (REST + WebSocket) - 131 tests
+│   ├── orange-node/        # Algorand node service - 76 tests
+│   ├── orange-site/        # Marketing website
+│   └── orange-tracker/     # Network tracker service
+├── packages/              # Shared libraries
+│   ├── orange-sdk/        # TypeScript SDK
+│   └── orange-react/      # React components
+├── smart-contracts/       # Algorand smart contracts - 119 tests
+│   ├── src/               # Contract source (TypeScript)
+│   ├── deploy/            # Deployment scripts (v3 API)
+│   └── tests/             # Contract tests
+├── legacy-contracts/      # Legacy contract implementations
+└── github-workflow-sandbox/  # CI/CD workflows
 ```
 
-### Develop
+## 📚 Documentation
 
-To develop all apps and packages, run the following command:
+- **[Developer Docs](./docs/)** - Architecture, design, and operational guides
+- **[Public Documentation](./site/)** - User-facing documentation website (Docusaurus)
+- **[API Reference](./site/docs/api.md)** - REST API documentation
+- **[SDK Guide](./site/docs/sdks/typescript.md)** - TypeScript SDK documentation
 
+### Key Documentation Files
+
+- [Architecture Design](./docs/architecture-design.md) - System architecture overview
+- [Component Diagrams](./docs/component-diagrams.md) - Visual architecture diagrams
+- [Production Infrastructure](./docs/PRODUCTION_INFRASTRUCTURE.md) - Production deployment guide
+- [Dependency Migration](./docs/DEPENDENCY_MIGRATION_GUIDE.md) - Dependency management
+
+## 🛠️ Development
+
+### Prerequisites
+
+- Node.js 18+
+- Docker
+- Kubernetes (for production)
+- Algorand node access
+
+### Environment Setup
+
+```bash
+# Copy environment template
+cp .env.example .env
+
+# Configure your credentials
+# ALGORAND_ADDRESS=your-address
+# ALGORAND_PRIVATE_KEY=your-key
+# ORANGE_GATEWAY_URL=https://api.orange-node.network
 ```
-cd my-turborepo
-pnpm dev
+
+### Running Services
+
+```bash
+# Start documentation site
+cd site
+npm run start
+
+# Start gateway in dev mode
+cd apps/orange-gateway
+npm run dev
+
+# Start orange node service
+cd apps/orange-node
+npm run dev
 ```
 
-### Remote Caching
+## 🚢 Deployment
 
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
+### Docker
 
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
+```bash
+# Build all containers
+docker-compose build
 
-```
-cd my-turborepo
-npx turbo login
-```
-
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
-
-```
-npx turbo link
+# Start services
+docker-compose up -d
 ```
 
-## Useful Links
+### Kubernetes (Helm)
 
-Learn more about the power of Turborepo:
+```bash
+# Install Orange Network
+helm install orange-network ./helm/orange-network -f ./helm/environments/prod-values.yaml
 
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+# Install monitoring
+helm install orange-monitoring ./helm/orange-monitoring
+```
+
+### Terraform
+
+```bash
+cd terraform/environments/prod
+terraform init
+terraform plan
+terraform apply
+```
+
+## 🧪 Testing
+
+```bash
+# Run all tests across the monorepo
+npm run test
+
+# Run specific package tests
+cd smart-contracts && npm test    # 119 tests
+cd apps/orange-gateway && npm test # 131 tests
+cd apps/orange-node && npm test    # 76 tests
+```
+
+## 📦 Monorepo
+
+This project uses Turborepo for monorepo management:
+
+- **Fast builds** - Intelligent caching and parallel execution
+- **Shared packages** - Code reuse across applications
+- **Consistent tooling** - Unified ESLint, TypeScript, and Prettier configs
+
+## 🛠️ Technology Stack
+
+- **Runtime**: Node.js 18+
+- **Language**: TypeScript 5.3+
+- **Blockchain**: Algorand (algosdk v3, algokit-utils v9)
+- **Testing**: Jest 29
+- **Build**: Turborepo
+- **Smart Contracts**: AlgoKit TypeScript
+
+## 🤝 Contributing
+
+See [Contributing Guidelines](./site/docs/contributing/guidelines.md) for details on:
+
+- Code standards
+- Pull request process
+- Development workflow
+- Testing requirements
+
+## 📝 License
+
+MIT License - see LICENSE file for details
+
+## 🔗 Links
+
+- [Documentation Website](https://orange-node-network.bitshift.dev)
+- [API Endpoint](https://api.orange-node.network)
+- [GitHub Repository](https://github.com/bitshiftmod/orange-node-network)
+
+## 🆘 Support
+
+- [FAQ](./site/docs/troubleshooting/faq.md)
+- [Common Issues](./site/docs/troubleshooting/common-issues.md)
+- Discord Community (coming soon)
+
+---
+
+**Built with ❤️ for the Algorand ecosystem**

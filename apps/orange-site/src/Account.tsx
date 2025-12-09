@@ -1,12 +1,10 @@
 import { useWallet } from "@txnlab/use-wallet";
 import AccountName from "./components/AccountName";
 import { useOrangeAccount } from "orange-react";
-// import { useCallback } from "react";
-import { Subscription30Day, SubscriptionYear, subscribe } from "orange-sdk";
 
 const Account = () => {
-  const { activeAccount, providers, signer } = useWallet();
-  const orangeAccount = useOrangeAccount(activeAccount?.address);
+  const { activeAccount, providers } = useWallet();
+  const { subscription, loading, error } = useOrangeAccount(activeAccount?.address);
 
   return (
     <div>
@@ -22,41 +20,39 @@ const Account = () => {
                 Disconnect
               </button>
             </div>
-            <div>Account Status: {orangeAccount ? "Active" : "Inactive"}</div>
-            { orangeAccount && (
-              <div>
-                Subscription Expires: {orangeAccount.expirationDate.toDateString()}
-              </div>
-              
+            {loading && <div>Loading subscription status...</div>}
+            {error && <div className="text-error">Error: {error.message}</div>}
+            {subscription && (
+              <>
+                <div>
+                  Account Status: {subscription.isActive ? "Active" : "Inactive"}
+                </div>
+                {subscription.expirationDate && (
+                  <div>
+                    Subscription Expires: {subscription.expirationDate.toDateString()}
+                  </div>
+                )}
+                {subscription.daysRemaining !== undefined && subscription.daysRemaining > 0 && (
+                  <div>Days Remaining: {subscription.daysRemaining}</div>
+                )}
+              </>
             )}
           </div>
           <div className="card card-normal bg-base-300 my-4">
             <div className="grid grid-cols-[auto_120px] gap-4 ">
               <div className="m-auto">Add 30-Day Subscription</div>
               <button
-                className="btn btn-primary"
-                onClick={() => {
-                  subscribe(
-                    Subscription30Day,
-                    activeAccount.address,
-                    signer,
-                    // sendTransactions
-                  );
-                }}
+                className="btn btn-primary btn-disabled"
+                disabled
+                title="Subscribe functionality coming soon"
               >
                 Subscribe
               </button>
               <div className="m-auto">Add 1-Year Subscription</div>
               <button
-                className="btn btn-primary"
-                onClick={() => {
-                  subscribe(
-                    SubscriptionYear,
-                    activeAccount.address,
-                    signer,
-                    // sendTransactions
-                  );
-                }}
+                className="btn btn-primary btn-disabled"
+                disabled
+                title="Subscribe functionality coming soon"
               >
                 Subscribe
               </button>

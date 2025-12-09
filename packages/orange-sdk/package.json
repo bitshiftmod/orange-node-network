@@ -1,30 +1,83 @@
 {
-  "name": "orange-sdk",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@orange-node-network/sdk",
+  "version": "1.0.0",
+  "description": "TypeScript SDK for the Orange Node Network - Gateway client and smart contract integration",
   "type": "module",
-  "main": "./dist/orange-sdk.umd.cjs",
-  "module": "./dist/orange-sdk.js",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/orange-sdk.js",
-      "require": "./dist/orange-sdk.umd.cjs",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
       "types": "./dist/index.d.ts"
+    },
+    "./contracts": {
+      "import": "./dist/contracts/index.js",
+      "require": "./dist/contracts/index.cjs",
+      "types": "./dist/contracts/index.d.ts"
     }
   },
+  "browser": "./dist/index.browser.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
-    "dev": "tsc --watch",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "copy-contracts": "node scripts/copy-contracts.js",
+    "dev": "vite build --watch",
+    "build": "npm run copy-contracts && vite build",
+    "build:types": "tsc --emitDeclarationOnly",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build && npm run test"
+  },
+  "dependencies": {
+    "@algorandfoundation/algokit-utils": "^9.1.2",
+    "algosdk": "^3.5.2",
+    "ky": "^1.7.2"
   },
   "devDependencies": {
     "@types/node": "^20.11.20",
-    "typescript": "^5.2.2",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3",
     "vite": "^5.1.4",
-    "vite-plugin-dts": "^3.7.3"
+    "vite-plugin-dts": "^3.7.3",
+    "vitest": "^1.2.0"
   },
-  "dependencies": {
-    "algosdk": "^2.7.0"
+  "peerDependencies": {
+    "algosdk": ">=3.0.0"
+  },
+  "engines": {
+    "node": ">=18",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "algorand",
+    "blockchain",
+    "orange-network",
+    "gateway",
+    "sdk",
+    "typescript",
+    "javascript",
+    "smart-contracts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitshiftmod/orange-node-network.git",
+    "directory": "packages/orange-sdk"
+  },
+  "author": "Orange Node Network Team",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   }
 }
